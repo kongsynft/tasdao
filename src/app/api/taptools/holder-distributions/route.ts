@@ -4,6 +4,7 @@ import {
   cabinsPolicyId,
   cotasPolicyId,
 } from "@/lib/constants";
+import { cookies } from "next/headers";
 
 async function fetchHolderDistributions(
   policyId: string,
@@ -37,6 +38,7 @@ async function fetchHolderDistributions(
 }
 
 export async function GET(request: Request) {
+  cookies();
   if (
     typeof process.env.TAPTOOLS_API_KEY !== "string" ||
     process.env.TAPTOOLS_API_KEY.trim() === ""
