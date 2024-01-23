@@ -5,6 +5,7 @@ import {
   cotasPolicyId,
   societyUnit,
 } from "@/lib/constants";
+import { cookies } from "next/headers";
 
 type TaptoolsOHLCV = {
   close: number;
@@ -14,7 +15,6 @@ type TaptoolsOHLCV = {
   time: number;
   volume: number;
 };
-export const revalidate = 3600;
 
 async function fetchNFTPriceData(policyId: string): Promise<DatePrice[]> {
   const response = await fetch(
@@ -78,6 +78,7 @@ async function fetchTokenPriceData(unit: string): Promise<DatePrice[]> {
 }
 
 export async function GET() {
+  cookies();
   if (
     typeof process.env.TAPTOOLS_API_KEY !== "string" ||
     process.env.TAPTOOLS_API_KEY.trim() === ""
