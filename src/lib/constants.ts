@@ -130,6 +130,15 @@ export type HolderDistributions = {
   "5-9": number;
 };
 
+export type TopHolder = {
+  address: string;
+  amount: number;
+};
+
+export type TopHolderWithRank = TopHolder & {
+  rank: number;
+};
+
 export const apesPolicyId =
   "dac355946b4317530d9ec0cb142c63a4b624610786c2a32137d78e25";
 export const cabinsPolicyId =
