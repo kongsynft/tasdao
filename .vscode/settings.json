@@ -1,0 +1,12 @@
+{
+    "editor.wordWrap": "on",
+    "editor.maxTokenizationLineLength": 200000,
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    }
+}

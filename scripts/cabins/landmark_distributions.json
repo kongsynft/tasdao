@@ -1,0 +1,5742 @@
+[
+    {
+        "x": 11,
+        "y": 14,
+        "distribution": 0.14
+    },
+    {
+        "x": 11,
+        "y": 15,
+        "distribution": 0.14
+    },
+    {
+        "x": 11,
+        "y": 16,
+        "distribution": 0.18
+    },
+    {
+        "x": 11,
+        "y": 17,
+        "distribution": 0.14
+    },
+    {
+        "x": 11,
+        "y": 18,
+        "distribution": 0.14
+    },
+    {
+        "x": 11,
+        "y": 19,
+        "distribution": 0.18
+    },
+    {
+        "x": 11,
+        "y": 20,
+        "distribution": 0.18
+    },
+    {
+        "x": 11,
+        "y": 21,
+        "distribution": 0.14
+    },
+    {
+        "x": 11,
+        "y": 22,
+        "distribution": 0.18
+    },
+    {
+        "x": 11,
+        "y": 23,
+        "distribution": 0.14
+    },
+    {
+        "x": 11,
+        "y": 24,
+        "distribution": 0.14
+    },
+    {
+        "x": 11,
+        "y": 25,
+        "distribution": 0.14
+    },
+    {
+        "x": 12,
+        "y": 14,
+        "distribution": 0.17
+    },
+    {
+        "x": 12,
+        "y": 15,
+        "distribution": 0.17
+    },
+    {
+        "x": 12,
+        "y": 16,
+        "distribution": 0.17
+    },
+    {
+        "x": 12,
+        "y": 17,
+        "distribution": 0.21
+    },
+    {
+        "x": 12,
+        "y": 18,
+        "distribution": 0.21
+    },
+    {
+        "x": 12,
+        "y": 19,
+        "distribution": 0.21
+    },
+    {
+        "x": 12,
+        "y": 20,
+        "distribution": 0.17
+    },
+    {
+        "x": 12,
+        "y": 21,
+        "distribution": 0.17
+    },
+    {
+        "x": 12,
+        "y": 22,
+        "distribution": 0.17
+    },
+    {
+        "x": 12,
+        "y": 23,
+        "distribution": 0.21
+    },
+    {
+        "x": 12,
+        "y": 24,
+        "distribution": 0.17
+    },
+    {
+        "x": 12,
+        "y": 25,
+        "distribution": 0.17
+    },
+    {
+        "x": 13,
+        "y": 14,
+        "distribution": 0.20
+    },
+    {
+        "x": 13,
+        "y": 15,
+        "distribution": 0.24
+    },
+    {
+        "x": 13,
+        "y": 16,
+        "distribution": 0.20
+    },
+    {
+        "x": 13,
+        "y": 17,
+        "distribution": 0.42
+    },
+    {
+        "x": 13,
+        "y": 18,
+        "distribution": 0.20
+    },
+    {
+        "x": 13,
+        "y": 19,
+        "distribution": 0.20
+    },
+    {
+        "x": 13,
+        "y": 20,
+        "distribution": 0.20
+    },
+    {
+        "x": 13,
+        "y": 21,
+        "distribution": 0.24
+    },
+    {
+        "x": 13,
+        "y": 22,
+        "distribution": 0.24
+    },
+    {
+        "x": 13,
+        "y": 23,
+        "distribution": 0.20
+    },
+    {
+        "x": 13,
+        "y": 24,
+        "distribution": 0.24
+    },
+    {
+        "x": 13,
+        "y": 25,
+        "distribution": 0.20
+    },
+    {
+        "x": 14,
+        "y": 14,
+        "distribution": 0.28
+    },
+    {
+        "x": 14,
+        "y": 15,
+        "distribution": 0.28
+    },
+    {
+        "x": 14,
+        "y": 16,
+        "distribution": 0.45
+    },
+    {
+        "x": 14,
+        "y": 17,
+        "distribution": 0.23
+    },
+    {
+        "x": 14,
+        "y": 18,
+        "distribution": 0.45
+    },
+    {
+        "x": 14,
+        "y": 19,
+        "distribution": 0.23
+    },
+    {
+        "x": 14,
+        "y": 20,
+        "distribution": 0.23
+    },
+    {
+        "x": 14,
+        "y": 21,
+        "distribution": 0.28
+    },
+    {
+        "x": 14,
+        "y": 22,
+        "distribution": 0.23
+    },
+    {
+        "x": 14,
+        "y": 23,
+        "distribution": 0.23
+    },
+    {
+        "x": 14,
+        "y": 24,
+        "distribution": 0.23
+    },
+    {
+        "x": 14,
+        "y": 25,
+        "distribution": 0.23
+    },
+    {
+        "x": 15,
+        "y": 14,
+        "distribution": 0.23
+    },
+    {
+        "x": 15,
+        "y": 15,
+        "distribution": 0.31
+    },
+    {
+        "x": 15,
+        "y": 16,
+        "distribution": 0.26
+    },
+    {
+        "x": 15,
+        "y": 17,
+        "distribution": 0.26
+    },
+    {
+        "x": 15,
+        "y": 18,
+        "distribution": 0.26
+    },
+    {
+        "x": 15,
+        "y": 19,
+        "distribution": 0.31
+    },
+    {
+        "x": 15,
+        "y": 20,
+        "distribution": 0.26
+    },
+    {
+        "x": 15,
+        "y": 21,
+        "distribution": 0.26
+    },
+    {
+        "x": 15,
+        "y": 22,
+        "distribution": 0.26
+    },
+    {
+        "x": 15,
+        "y": 23,
+        "distribution": 0.31
+    },
+    {
+        "x": 15,
+        "y": 24,
+        "distribution": 0.26
+    },
+    {
+        "x": 15,
+        "y": 25,
+        "distribution": 0.26
+    },
+    {
+        "x": 16,
+        "y": 14,
+        "distribution": 0.45
+    },
+    {
+        "x": 16,
+        "y": 15,
+        "distribution": 0.26
+    },
+    {
+        "x": 16,
+        "y": 16,
+        "distribution": 0.34
+    },
+    {
+        "x": 16,
+        "y": 17,
+        "distribution": 0.30
+    },
+    {
+        "x": 16,
+        "y": 18,
+        "distribution": 0.30
+    },
+    {
+        "x": 16,
+        "y": 19,
+        "distribution": 0.30
+    },
+    {
+        "x": 16,
+        "y": 20,
+        "distribution": 0.30
+    },
+    {
+        "x": 16,
+        "y": 21,
+        "distribution": 0.30
+    },
+    {
+        "x": 16,
+        "y": 22,
+        "distribution": 0.30
+    },
+    {
+        "x": 16,
+        "y": 23,
+        "distribution": 0.30
+    },
+    {
+        "x": 16,
+        "y": 24,
+        "distribution": 0.34
+    },
+    {
+        "x": 16,
+        "y": 25,
+        "distribution": 0.30
+    },
+    {
+        "x": 16,
+        "y": 26,
+        "distribution": 0.30
+    },
+    {
+        "x": 16,
+        "y": 27,
+        "distribution": 0.30
+    },
+    {
+        "x": 17,
+        "y": 14,
+        "distribution": 0.28
+    },
+    {
+        "x": 17,
+        "y": 15,
+        "distribution": 0.48
+    },
+    {
+        "x": 17,
+        "y": 16,
+        "distribution": 0.30
+    },
+    {
+        "x": 17,
+        "y": 17,
+        "distribution": 0.36
+    },
+    {
+        "x": 17,
+        "y": 18,
+        "distribution": 0.58
+    },
+    {
+        "x": 17,
+        "y": 19,
+        "distribution": 0.36
+    },
+    {
+        "x": 17,
+        "y": 20,
+        "distribution": 0.36
+    },
+    {
+        "x": 17,
+        "y": 21,
+        "distribution": 0.40
+    },
+    {
+        "x": 17,
+        "y": 22,
+        "distribution": 0.36
+    },
+    {
+        "x": 17,
+        "y": 23,
+        "distribution": 0.36
+    },
+    {
+        "x": 17,
+        "y": 24,
+        "distribution": 0.36
+    },
+    {
+        "x": 17,
+        "y": 25,
+        "distribution": 0.40
+    },
+    {
+        "x": 17,
+        "y": 26,
+        "distribution": 0.36
+    },
+    {
+        "x": 17,
+        "y": 27,
+        "distribution": 0.36
+    },
+    {
+        "x": 18,
+        "y": 14,
+        "distribution": 0.45
+    },
+    {
+        "x": 18,
+        "y": 15,
+        "distribution": 0.26
+    },
+    {
+        "x": 18,
+        "y": 16,
+        "distribution": 0.30
+    },
+    {
+        "x": 18,
+        "y": 17,
+        "distribution": 0.36
+    },
+    {
+        "x": 18,
+        "y": 18,
+        "distribution": 0.48
+    },
+    {
+        "x": 18,
+        "y": 19,
+        "distribution": 0.65
+    },
+    {
+        "x": 18,
+        "y": 20,
+        "distribution": 0.43
+    },
+    {
+        "x": 18,
+        "y": 21,
+        "distribution": 0.48
+    },
+    {
+        "x": 18,
+        "y": 22,
+        "distribution": 0.65
+    },
+    {
+        "x": 18,
+        "y": 23,
+        "distribution": 0.43
+    },
+    {
+        "x": 18,
+        "y": 24,
+        "distribution": 0.43
+    },
+    {
+        "x": 18,
+        "y": 25,
+        "distribution": 0.48
+    },
+    {
+        "x": 18,
+        "y": 26,
+        "distribution": 0.43
+    },
+    {
+        "x": 18,
+        "y": 27,
+        "distribution": 0.43
+    },
+    {
+        "x": 19,
+        "y": 14,
+        "distribution": 0.28
+    },
+    {
+        "x": 19,
+        "y": 15,
+        "distribution": 0.31
+    },
+    {
+        "x": 19,
+        "y": 16,
+        "distribution": 0.30
+    },
+    {
+        "x": 19,
+        "y": 17,
+        "distribution": 0.40
+    },
+    {
+        "x": 19,
+        "y": 18,
+        "distribution": 0.43
+    },
+    {
+        "x": 19,
+        "y": 19,
+        "distribution": 0.73
+    },
+    {
+        "x": 19,
+        "y": 20,
+        "distribution": 0.51
+    },
+    {
+        "x": 19,
+        "y": 21,
+        "distribution": 0.55
+    },
+    {
+        "x": 19,
+        "y": 22,
+        "distribution": 0.55
+    },
+    {
+        "x": 19,
+        "y": 23,
+        "distribution": 0.73
+    },
+    {
+        "x": 19,
+        "y": 24,
+        "distribution": 0.51
+    },
+    {
+        "x": 19,
+        "y": 25,
+        "distribution": 0.51
+    },
+    {
+        "x": 19,
+        "y": 26,
+        "distribution": 0.55
+    },
+    {
+        "x": 19,
+        "y": 27,
+        "distribution": 0.48
+    },
+    {
+        "x": 20,
+        "y": 14,
+        "distribution": 0.28
+    },
+    {
+        "x": 20,
+        "y": 15,
+        "distribution": 0.48
+    },
+    {
+        "x": 20,
+        "y": 16,
+        "distribution": 0.30
+    },
+    {
+        "x": 20,
+        "y": 17,
+        "distribution": 0.58
+    },
+    {
+        "x": 20,
+        "y": 18,
+        "distribution": 0.43
+    },
+    {
+        "x": 20,
+        "y": 19,
+        "distribution": 0.73
+    },
+    {
+        "x": 20,
+        "y": 20,
+        "distribution": 0.64
+    },
+    {
+        "x": 20,
+        "y": 21,
+        "distribution": 0.64
+    },
+    {
+        "x": 20,
+        "y": 22,
+        "distribution": 0.64
+    },
+    {
+        "x": 20,
+        "y": 23,
+        "distribution": 0.68
+    },
+    {
+        "x": 20,
+        "y": 24,
+        "distribution": 0.68
+    },
+    {
+        "x": 20,
+        "y": 25,
+        "distribution": 0.85
+    },
+    {
+        "x": 20,
+        "y": 26,
+        "distribution": 0.55
+    },
+    {
+        "x": 20,
+        "y": 27,
+        "distribution": 0.65
+    },
+    {
+        "x": 21,
+        "y": 14,
+        "distribution": 0.28
+    },
+    {
+        "x": 21,
+        "y": 15,
+        "distribution": 0.31
+    },
+    {
+        "x": 21,
+        "y": 16,
+        "distribution": 0.34
+    },
+    {
+        "x": 21,
+        "y": 17,
+        "distribution": 0.40
+    },
+    {
+        "x": 21,
+        "y": 18,
+        "distribution": 0.43
+    },
+    {
+        "x": 21,
+        "y": 19,
+        "distribution": 0.51
+    },
+    {
+        "x": 21,
+        "y": 20,
+        "distribution": 0.68
+    },
+    {
+        "x": 21,
+        "y": 25,
+        "distribution": 0.64
+    },
+    {
+        "x": 21,
+        "y": 26,
+        "distribution": 0.51
+    },
+    {
+        "x": 21,
+        "y": 27,
+        "distribution": 0.43
+    },
+    {
+        "x": 22,
+        "y": 14,
+        "distribution": 0.23
+    },
+    {
+        "x": 22,
+        "y": 15,
+        "distribution": 0.26
+    },
+    {
+        "x": 22,
+        "y": 16,
+        "distribution": 0.30
+    },
+    {
+        "x": 22,
+        "y": 17,
+        "distribution": 0.36
+    },
+    {
+        "x": 22,
+        "y": 18,
+        "distribution": 0.48
+    },
+    {
+        "x": 22,
+        "y": 19,
+        "distribution": 0.51
+    },
+    {
+        "x": 22,
+        "y": 20,
+        "distribution": 0.68
+    },
+    {
+        "x": 22,
+        "y": 25,
+        "distribution": 0.68
+    },
+    {
+        "x": 22,
+        "y": 26,
+        "distribution": 0.51
+    },
+    {
+        "x": 22,
+        "y": 27,
+        "distribution": 0.43
+    },
+    {
+        "x": 23,
+        "y": 14,
+        "distribution": 0.23
+    },
+    {
+        "x": 23,
+        "y": 15,
+        "distribution": 0.26
+    },
+    {
+        "x": 23,
+        "y": 16,
+        "distribution": 0.34
+    },
+    {
+        "x": 23,
+        "y": 17,
+        "distribution": 0.36
+    },
+    {
+        "x": 23,
+        "y": 18,
+        "distribution": 0.43
+    },
+    {
+        "x": 23,
+        "y": 19,
+        "distribution": 0.55
+    },
+    {
+        "x": 23,
+        "y": 20,
+        "distribution": 0.64
+    },
+    {
+        "x": 23,
+        "y": 25,
+        "distribution": 0.64
+    },
+    {
+        "x": 23,
+        "y": 26,
+        "distribution": 0.51
+    },
+    {
+        "x": 23,
+        "y": 27,
+        "distribution": 0.43
+    },
+    {
+        "x": 24,
+        "y": 14,
+        "distribution": 0.23
+    },
+    {
+        "x": 24,
+        "y": 15,
+        "distribution": 0.26
+    },
+    {
+        "x": 24,
+        "y": 16,
+        "distribution": 0.30
+    },
+    {
+        "x": 24,
+        "y": 17,
+        "distribution": 0.36
+    },
+    {
+        "x": 24,
+        "y": 18,
+        "distribution": 0.43
+    },
+    {
+        "x": 24,
+        "y": 19,
+        "distribution": 0.55
+    },
+    {
+        "x": 24,
+        "y": 20,
+        "distribution": 0.64
+    },
+    {
+        "x": 24,
+        "y": 25,
+        "distribution": 0.85
+    },
+    {
+        "x": 24,
+        "y": 26,
+        "distribution": 0.51
+    },
+    {
+        "x": 24,
+        "y": 27,
+        "distribution": 0.48
+    },
+    {
+        "x": 25,
+        "y": 14,
+        "distribution": 0.23
+    },
+    {
+        "x": 25,
+        "y": 15,
+        "distribution": 0.26
+    },
+    {
+        "x": 25,
+        "y": 16,
+        "distribution": 0.30
+    },
+    {
+        "x": 25,
+        "y": 17,
+        "distribution": 0.58
+    },
+    {
+        "x": 25,
+        "y": 18,
+        "distribution": 0.48
+    },
+    {
+        "x": 25,
+        "y": 19,
+        "distribution": 0.51
+    },
+    {
+        "x": 25,
+        "y": 20,
+        "distribution": 0.85
+    },
+    {
+        "x": 25,
+        "y": 25,
+        "distribution": 0.64
+    },
+    {
+        "x": 25,
+        "y": 26,
+        "distribution": 0.51
+    },
+    {
+        "x": 25,
+        "y": 27,
+        "distribution": 0.48
+    },
+    {
+        "x": 26,
+        "y": 14,
+        "distribution": 0.23
+    },
+    {
+        "x": 26,
+        "y": 15,
+        "distribution": 0.31
+    },
+    {
+        "x": 26,
+        "y": 16,
+        "distribution": 0.30
+    },
+    {
+        "x": 26,
+        "y": 17,
+        "distribution": 0.36
+    },
+    {
+        "x": 26,
+        "y": 18,
+        "distribution": 0.48
+    },
+    {
+        "x": 26,
+        "y": 19,
+        "distribution": 0.55
+    },
+    {
+        "x": 26,
+        "y": 20,
+        "distribution": 0.68
+    },
+    {
+        "x": 26,
+        "y": 21,
+        "distribution": 0.68
+    },
+    {
+        "x": 26,
+        "y": 22,
+        "distribution": 0.68
+    },
+    {
+        "x": 26,
+        "y": 23,
+        "distribution": 0.64
+    },
+    {
+        "x": 26,
+        "y": 24,
+        "distribution": 0.68
+    },
+    {
+        "x": 26,
+        "y": 25,
+        "distribution": 0.85
+    },
+    {
+        "x": 26,
+        "y": 26,
+        "distribution": 0.51
+    },
+    {
+        "x": 26,
+        "y": 27,
+        "distribution": 0.43
+    },
+    {
+        "x": 27,
+        "y": 18,
+        "distribution": 0.65
+    },
+    {
+        "x": 27,
+        "y": 19,
+        "distribution": 0.51
+    },
+    {
+        "x": 27,
+        "y": 20,
+        "distribution": 0.51
+    },
+    {
+        "x": 27,
+        "y": 21,
+        "distribution": 0.51
+    },
+    {
+        "x": 27,
+        "y": 22,
+        "distribution": 0.51
+    },
+    {
+        "x": 27,
+        "y": 23,
+        "distribution": 0.51
+    },
+    {
+        "x": 27,
+        "y": 24,
+        "distribution": 0.55
+    },
+    {
+        "x": 27,
+        "y": 25,
+        "distribution": 0.51
+    },
+    {
+        "x": 27,
+        "y": 26,
+        "distribution": 0.51
+    },
+    {
+        "x": 27,
+        "y": 27,
+        "distribution": 0.51
+    },
+    {
+        "x": 28,
+        "y": 18,
+        "distribution": 0.48
+    },
+    {
+        "x": 28,
+        "y": 19,
+        "distribution": 0.48
+    },
+    {
+        "x": 28,
+        "y": 20,
+        "distribution": 0.65
+    },
+    {
+        "x": 28,
+        "y": 21,
+        "distribution": 0.43
+    },
+    {
+        "x": 28,
+        "y": 22,
+        "distribution": 0.48
+    },
+    {
+        "x": 28,
+        "y": 23,
+        "distribution": 0.43
+    },
+    {
+        "x": 28,
+        "y": 24,
+        "distribution": 0.48
+    },
+    {
+        "x": 28,
+        "y": 25,
+        "distribution": 0.43
+    },
+    {
+        "x": 28,
+        "y": 26,
+        "distribution": 0.43
+    },
+    {
+        "x": 28,
+        "y": 27,
+        "distribution": 0.48
+    },
+    {
+        "x": 29,
+        "y": 18,
+        "distribution": 0.36
+    },
+    {
+        "x": 29,
+        "y": 19,
+        "distribution": 0.36
+    },
+    {
+        "x": 29,
+        "y": 20,
+        "distribution": 0.36
+    },
+    {
+        "x": 29,
+        "y": 21,
+        "distribution": 0.40
+    },
+    {
+        "x": 29,
+        "y": 22,
+        "distribution": 0.40
+    },
+    {
+        "x": 29,
+        "y": 23,
+        "distribution": 0.58
+    },
+    {
+        "x": 29,
+        "y": 24,
+        "distribution": 0.40
+    },
+    {
+        "x": 29,
+        "y": 25,
+        "distribution": 0.36
+    },
+    {
+        "x": 29,
+        "y": 26,
+        "distribution": 0.40
+    },
+    {
+        "x": 29,
+        "y": 27,
+        "distribution": 0.36
+    },
+    {
+        "x": 30,
+        "y": 18,
+        "distribution": 0.30
+    },
+    {
+        "x": 30,
+        "y": 19,
+        "distribution": 0.30
+    },
+    {
+        "x": 30,
+        "y": 20,
+        "distribution": 0.34
+    },
+    {
+        "x": 30,
+        "y": 21,
+        "distribution": 0.30
+    },
+    {
+        "x": 30,
+        "y": 22,
+        "distribution": 0.30
+    },
+    {
+        "x": 30,
+        "y": 23,
+        "distribution": 0.30
+    },
+    {
+        "x": 30,
+        "y": 24,
+        "distribution": 0.52
+    },
+    {
+        "x": 30,
+        "y": 25,
+        "distribution": 0.34
+    },
+    {
+        "x": 30,
+        "y": 26,
+        "distribution": 0.30
+    },
+    {
+        "x": 30,
+        "y": 27,
+        "distribution": 0.34
+    },
+    {
+        "x": 31,
+        "y": 18,
+        "distribution": 0.31
+    },
+    {
+        "x": 31,
+        "y": 19,
+        "distribution": 0.48
+    },
+    {
+        "x": 31,
+        "y": 20,
+        "distribution": 0.31
+    },
+    {
+        "x": 31,
+        "y": 21,
+        "distribution": 0.26
+    },
+    {
+        "x": 31,
+        "y": 22,
+        "distribution": 0.26
+    },
+    {
+        "x": 31,
+        "y": 23,
+        "distribution": 0.48
+    },
+    {
+        "x": 31,
+        "y": 24,
+        "distribution": 0.31
+    },
+    {
+        "x": 31,
+        "y": 25,
+        "distribution": 0.31
+    },
+    {
+        "x": 31,
+        "y": 26,
+        "distribution": 0.31
+    },
+    {
+        "x": 31,
+        "y": 27,
+        "distribution": 0.26
+    },
+    {
+        "x": 32,
+        "y": 18,
+        "distribution": 0.28
+    },
+    {
+        "x": 32,
+        "y": 19,
+        "distribution": 0.23
+    },
+    {
+        "x": 32,
+        "y": 20,
+        "distribution": 0.23
+    },
+    {
+        "x": 32,
+        "y": 21,
+        "distribution": 0.23
+    },
+    {
+        "x": 32,
+        "y": 22,
+        "distribution": 0.45
+    },
+    {
+        "x": 32,
+        "y": 23,
+        "distribution": 0.23
+    },
+    {
+        "x": 32,
+        "y": 24,
+        "distribution": 0.28
+    },
+    {
+        "x": 32,
+        "y": 25,
+        "distribution": 0.45
+    },
+    {
+        "x": 32,
+        "y": 26,
+        "distribution": 0.23
+    },
+    {
+        "x": 32,
+        "y": 27,
+        "distribution": 0.23
+    },
+    {
+        "x": 33,
+        "y": 18,
+        "distribution": 0.20
+    },
+    {
+        "x": 33,
+        "y": 19,
+        "distribution": 0.20
+    },
+    {
+        "x": 33,
+        "y": 20,
+        "distribution": 0.20
+    },
+    {
+        "x": 33,
+        "y": 21,
+        "distribution": 0.20
+    },
+    {
+        "x": 33,
+        "y": 22,
+        "distribution": 0.20
+    },
+    {
+        "x": 33,
+        "y": 23,
+        "distribution": 0.24
+    },
+    {
+        "x": 33,
+        "y": 24,
+        "distribution": 0.20
+    },
+    {
+        "x": 33,
+        "y": 25,
+        "distribution": 0.20
+    },
+    {
+        "x": 33,
+        "y": 26,
+        "distribution": 0.20
+    },
+    {
+        "x": 33,
+        "y": 27,
+        "distribution": 0.20
+    },
+    {
+        "x": 42,
+        "y": 32,
+        "distribution": 0.16
+    },
+    {
+        "x": 42,
+        "y": 33,
+        "distribution": 0.20
+    },
+    {
+        "x": 42,
+        "y": 34,
+        "distribution": 0.25
+    },
+    {
+        "x": 42,
+        "y": 35,
+        "distribution": 0.36
+    },
+    {
+        "x": 42,
+        "y": 36,
+        "distribution": 0.34
+    },
+    {
+        "x": 42,
+        "y": 37,
+        "distribution": 0.45
+    },
+    {
+        "x": 42,
+        "y": 38,
+        "distribution": 0.44
+    },
+    {
+        "x": 42,
+        "y": 39,
+        "distribution": 0.53
+    },
+    {
+        "x": 42,
+        "y": 40,
+        "distribution": 0.62
+    },
+    {
+        "x": 42,
+        "y": 41,
+        "distribution": 1.04
+    },
+    {
+        "x": 42,
+        "y": 42,
+        "distribution": 1.21
+    },
+    {
+        "x": 43,
+        "y": 32,
+        "distribution": 0.22
+    },
+    {
+        "x": 43,
+        "y": 33,
+        "distribution": 0.20
+    },
+    {
+        "x": 43,
+        "y": 34,
+        "distribution": 0.31
+    },
+    {
+        "x": 43,
+        "y": 35,
+        "distribution": 0.30
+    },
+    {
+        "x": 43,
+        "y": 36,
+        "distribution": 0.41
+    },
+    {
+        "x": 43,
+        "y": 37,
+        "distribution": 0.71
+    },
+    {
+        "x": 43,
+        "y": 38,
+        "distribution": 0.50
+    },
+    {
+        "x": 43,
+        "y": 39,
+        "distribution": 0.59
+    },
+    {
+        "x": 43,
+        "y": 40,
+        "distribution": 0.94
+    },
+    {
+        "x": 43,
+        "y": 41,
+        "distribution": 0.72
+    },
+    {
+        "x": 43,
+        "y": 42,
+        "distribution": 0.94
+    },
+    {
+        "x": 44,
+        "y": 32,
+        "distribution": 0.16
+    },
+    {
+        "x": 44,
+        "y": 33,
+        "distribution": 0.27
+    },
+    {
+        "x": 44,
+        "y": 34,
+        "distribution": 0.25
+    },
+    {
+        "x": 44,
+        "y": 35,
+        "distribution": 0.30
+    },
+    {
+        "x": 44,
+        "y": 36,
+        "distribution": 0.41
+    },
+    {
+        "x": 44,
+        "y": 37,
+        "distribution": 0.39
+    },
+    {
+        "x": 44,
+        "y": 38,
+        "distribution": 0.44
+    },
+    {
+        "x": 44,
+        "y": 39,
+        "distribution": 0.53
+    },
+    {
+        "x": 44,
+        "y": 40,
+        "distribution": 0.69
+    },
+    {
+        "x": 44,
+        "y": 41,
+        "distribution": 0.72
+    },
+    {
+        "x": 44,
+        "y": 42,
+        "distribution": 0.94
+    },
+    {
+        "x": 45,
+        "y": 32,
+        "distribution": 0.16
+    },
+    {
+        "x": 45,
+        "y": 33,
+        "distribution": 0.27
+    },
+    {
+        "x": 45,
+        "y": 34,
+        "distribution": 0.25
+    },
+    {
+        "x": 45,
+        "y": 35,
+        "distribution": 0.30
+    },
+    {
+        "x": 45,
+        "y": 36,
+        "distribution": 0.34
+    },
+    {
+        "x": 45,
+        "y": 37,
+        "distribution": 0.45
+    },
+    {
+        "x": 45,
+        "y": 38,
+        "distribution": 0.50
+    },
+    {
+        "x": 45,
+        "y": 39,
+        "distribution": 0.53
+    },
+    {
+        "x": 45,
+        "y": 40,
+        "distribution": 0.62
+    },
+    {
+        "x": 45,
+        "y": 41,
+        "distribution": 0.72
+    },
+    {
+        "x": 45,
+        "y": 42,
+        "distribution": 0.88
+    },
+    {
+        "x": 46,
+        "y": 32,
+        "distribution": 0.47
+    },
+    {
+        "x": 46,
+        "y": 33,
+        "distribution": 0.27
+    },
+    {
+        "x": 46,
+        "y": 34,
+        "distribution": 0.31
+    },
+    {
+        "x": 46,
+        "y": 35,
+        "distribution": 0.30
+    },
+    {
+        "x": 46,
+        "y": 36,
+        "distribution": 0.34
+    },
+    {
+        "x": 46,
+        "y": 37,
+        "distribution": 0.71
+    },
+    {
+        "x": 46,
+        "y": 38,
+        "distribution": 0.75
+    },
+    {
+        "x": 46,
+        "y": 39,
+        "distribution": 0.53
+    },
+    {
+        "x": 46,
+        "y": 40,
+        "distribution": 0.62
+    },
+    {
+        "x": 46,
+        "y": 41,
+        "distribution": 1.04
+    },
+    {
+        "x": 46,
+        "y": 42,
+        "distribution": 0.88
+    },
+    {
+        "x": 46,
+        "y": 43,
+        "distribution": 0.88
+    },
+    {
+        "x": 46,
+        "y": 44,
+        "distribution": 0.94
+    },
+    {
+        "x": 46,
+        "y": 45,
+        "distribution": 0.94
+    },
+    {
+        "x": 46,
+        "y": 46,
+        "distribution": 1.21
+    },
+    {
+        "x": 46,
+        "y": 47,
+        "distribution": 0.88
+    },
+    {
+        "x": 47,
+        "y": 32,
+        "distribution": 0.16
+    },
+    {
+        "x": 47,
+        "y": 33,
+        "distribution": 0.20
+    },
+    {
+        "x": 47,
+        "y": 34,
+        "distribution": 0.31
+    },
+    {
+        "x": 47,
+        "y": 35,
+        "distribution": 0.30
+    },
+    {
+        "x": 47,
+        "y": 36,
+        "distribution": 0.34
+    },
+    {
+        "x": 47,
+        "y": 37,
+        "distribution": 0.45
+    },
+    {
+        "x": 47,
+        "y": 38,
+        "distribution": 0.44
+    },
+    {
+        "x": 47,
+        "y": 39,
+        "distribution": 0.59
+    },
+    {
+        "x": 47,
+        "y": 40,
+        "distribution": 0.62
+    },
+    {
+        "x": 47,
+        "y": 41,
+        "distribution": 0.72
+    },
+    {
+        "x": 47,
+        "y": 42,
+        "distribution": 0.72
+    },
+    {
+        "x": 47,
+        "y": 43,
+        "distribution": 0.72
+    },
+    {
+        "x": 47,
+        "y": 44,
+        "distribution": 0.72
+    },
+    {
+        "x": 47,
+        "y": 45,
+        "distribution": 0.72
+    },
+    {
+        "x": 47,
+        "y": 46,
+        "distribution": 0.79
+    },
+    {
+        "x": 47,
+        "y": 47,
+        "distribution": 0.72
+    },
+    {
+        "x": 48,
+        "y": 32,
+        "distribution": 0.22
+    },
+    {
+        "x": 48,
+        "y": 33,
+        "distribution": 0.52
+    },
+    {
+        "x": 48,
+        "y": 34,
+        "distribution": 0.25
+    },
+    {
+        "x": 48,
+        "y": 35,
+        "distribution": 0.30
+    },
+    {
+        "x": 48,
+        "y": 36,
+        "distribution": 0.34
+    },
+    {
+        "x": 48,
+        "y": 37,
+        "distribution": 0.39
+    },
+    {
+        "x": 48,
+        "y": 38,
+        "distribution": 0.44
+    },
+    {
+        "x": 48,
+        "y": 39,
+        "distribution": 0.53
+    },
+    {
+        "x": 48,
+        "y": 40,
+        "distribution": 0.62
+    },
+    {
+        "x": 48,
+        "y": 41,
+        "distribution": 0.62
+    },
+    {
+        "x": 48,
+        "y": 42,
+        "distribution": 0.69
+    },
+    {
+        "x": 48,
+        "y": 43,
+        "distribution": 0.69
+    },
+    {
+        "x": 48,
+        "y": 44,
+        "distribution": 0.62
+    },
+    {
+        "x": 48,
+        "y": 45,
+        "distribution": 0.94
+    },
+    {
+        "x": 48,
+        "y": 46,
+        "distribution": 0.62
+    },
+    {
+        "x": 48,
+        "y": 47,
+        "distribution": 0.69
+    },
+    {
+        "x": 49,
+        "y": 32,
+        "distribution": 0.16
+    },
+    {
+        "x": 49,
+        "y": 33,
+        "distribution": 0.20
+    },
+    {
+        "x": 49,
+        "y": 34,
+        "distribution": 0.25
+    },
+    {
+        "x": 49,
+        "y": 35,
+        "distribution": 0.36
+    },
+    {
+        "x": 49,
+        "y": 36,
+        "distribution": 0.34
+    },
+    {
+        "x": 49,
+        "y": 37,
+        "distribution": 0.39
+    },
+    {
+        "x": 49,
+        "y": 38,
+        "distribution": 0.44
+    },
+    {
+        "x": 49,
+        "y": 39,
+        "distribution": 0.59
+    },
+    {
+        "x": 49,
+        "y": 40,
+        "distribution": 0.53
+    },
+    {
+        "x": 49,
+        "y": 41,
+        "distribution": 0.59
+    },
+    {
+        "x": 49,
+        "y": 42,
+        "distribution": 0.85
+    },
+    {
+        "x": 49,
+        "y": 43,
+        "distribution": 0.85
+    },
+    {
+        "x": 49,
+        "y": 44,
+        "distribution": 0.59
+    },
+    {
+        "x": 49,
+        "y": 45,
+        "distribution": 0.59
+    },
+    {
+        "x": 49,
+        "y": 46,
+        "distribution": 0.59
+    },
+    {
+        "x": 49,
+        "y": 47,
+        "distribution": 0.53
+    },
+    {
+        "x": 50,
+        "y": 32,
+        "distribution": 0.16
+    },
+    {
+        "x": 50,
+        "y": 33,
+        "distribution": 0.20
+    },
+    {
+        "x": 50,
+        "y": 34,
+        "distribution": 0.57
+    },
+    {
+        "x": 50,
+        "y": 35,
+        "distribution": 0.30
+    },
+    {
+        "x": 50,
+        "y": 36,
+        "distribution": 0.34
+    },
+    {
+        "x": 50,
+        "y": 37,
+        "distribution": 0.39
+    },
+    {
+        "x": 50,
+        "y": 38,
+        "distribution": 0.44
+    },
+    {
+        "x": 50,
+        "y": 39,
+        "distribution": 0.75
+    },
+    {
+        "x": 50,
+        "y": 40,
+        "distribution": 0.50
+    },
+    {
+        "x": 50,
+        "y": 41,
+        "distribution": 0.44
+    },
+    {
+        "x": 50,
+        "y": 42,
+        "distribution": 0.50
+    },
+    {
+        "x": 50,
+        "y": 43,
+        "distribution": 0.44
+    },
+    {
+        "x": 50,
+        "y": 44,
+        "distribution": 0.75
+    },
+    {
+        "x": 50,
+        "y": 45,
+        "distribution": 0.75
+    },
+    {
+        "x": 50,
+        "y": 46,
+        "distribution": 0.50
+    },
+    {
+        "x": 50,
+        "y": 47,
+        "distribution": 0.44
+    },
+    {
+        "x": 51,
+        "y": 32,
+        "distribution": 0.16
+    },
+    {
+        "x": 51,
+        "y": 33,
+        "distribution": 0.27
+    },
+    {
+        "x": 51,
+        "y": 34,
+        "distribution": 0.57
+    },
+    {
+        "x": 51,
+        "y": 35,
+        "distribution": 0.61
+    },
+    {
+        "x": 51,
+        "y": 36,
+        "distribution": 0.41
+    },
+    {
+        "x": 51,
+        "y": 37,
+        "distribution": 0.39
+    },
+    {
+        "x": 51,
+        "y": 38,
+        "distribution": 0.39
+    },
+    {
+        "x": 51,
+        "y": 39,
+        "distribution": 0.45
+    },
+    {
+        "x": 51,
+        "y": 40,
+        "distribution": 0.71
+    },
+    {
+        "x": 51,
+        "y": 41,
+        "distribution": 0.45
+    },
+    {
+        "x": 51,
+        "y": 42,
+        "distribution": 0.45
+    },
+    {
+        "x": 51,
+        "y": 43,
+        "distribution": 0.39
+    },
+    {
+        "x": 51,
+        "y": 44,
+        "distribution": 0.39
+    },
+    {
+        "x": 51,
+        "y": 45,
+        "distribution": 0.39
+    },
+    {
+        "x": 51,
+        "y": 46,
+        "distribution": 0.39
+    },
+    {
+        "x": 51,
+        "y": 47,
+        "distribution": 0.45
+    },
+    {
+        "x": 52,
+        "y": 32,
+        "distribution": 0.16
+    },
+    {
+        "x": 52,
+        "y": 33,
+        "distribution": 0.20
+    },
+    {
+        "x": 52,
+        "y": 34,
+        "distribution": 0.31
+    },
+    {
+        "x": 52,
+        "y": 35,
+        "distribution": 0.30
+    },
+    {
+        "x": 52,
+        "y": 36,
+        "distribution": 0.41
+    },
+    {
+        "x": 52,
+        "y": 37,
+        "distribution": 0.34
+    },
+    {
+        "x": 52,
+        "y": 38,
+        "distribution": 0.34
+    },
+    {
+        "x": 52,
+        "y": 39,
+        "distribution": 0.66
+    },
+    {
+        "x": 52,
+        "y": 40,
+        "distribution": 0.34
+    },
+    {
+        "x": 52,
+        "y": 41,
+        "distribution": 0.34
+    },
+    {
+        "x": 52,
+        "y": 42,
+        "distribution": 0.34
+    },
+    {
+        "x": 52,
+        "y": 43,
+        "distribution": 0.34
+    },
+    {
+        "x": 52,
+        "y": 44,
+        "distribution": 0.34
+    },
+    {
+        "x": 52,
+        "y": 45,
+        "distribution": 0.41
+    },
+    {
+        "x": 52,
+        "y": 46,
+        "distribution": 0.34
+    },
+    {
+        "x": 52,
+        "y": 47,
+        "distribution": 0.34
+    },
+    {
+        "x": 53,
+        "y": 32,
+        "distribution": 0.22
+    },
+    {
+        "x": 53,
+        "y": 33,
+        "distribution": 0.27
+    },
+    {
+        "x": 53,
+        "y": 34,
+        "distribution": 0.25
+    },
+    {
+        "x": 53,
+        "y": 35,
+        "distribution": 0.36
+    },
+    {
+        "x": 53,
+        "y": 36,
+        "distribution": 0.36
+    },
+    {
+        "x": 53,
+        "y": 37,
+        "distribution": 0.30
+    },
+    {
+        "x": 53,
+        "y": 38,
+        "distribution": 0.30
+    },
+    {
+        "x": 53,
+        "y": 39,
+        "distribution": 0.30
+    },
+    {
+        "x": 53,
+        "y": 40,
+        "distribution": 0.30
+    },
+    {
+        "x": 53,
+        "y": 41,
+        "distribution": 0.30
+    },
+    {
+        "x": 53,
+        "y": 42,
+        "distribution": 0.30
+    },
+    {
+        "x": 53,
+        "y": 43,
+        "distribution": 0.36
+    },
+    {
+        "x": 53,
+        "y": 44,
+        "distribution": 0.30
+    },
+    {
+        "x": 53,
+        "y": 45,
+        "distribution": 0.30
+    },
+    {
+        "x": 53,
+        "y": 46,
+        "distribution": 0.30
+    },
+    {
+        "x": 53,
+        "y": 47,
+        "distribution": 0.61
+    },
+    {
+        "x": 54,
+        "y": 32,
+        "distribution": 0.16
+    },
+    {
+        "x": 54,
+        "y": 33,
+        "distribution": 0.27
+    },
+    {
+        "x": 54,
+        "y": 34,
+        "distribution": 0.25
+    },
+    {
+        "x": 54,
+        "y": 35,
+        "distribution": 0.31
+    },
+    {
+        "x": 54,
+        "y": 36,
+        "distribution": 0.25
+    },
+    {
+        "x": 54,
+        "y": 37,
+        "distribution": 0.25
+    },
+    {
+        "x": 54,
+        "y": 38,
+        "distribution": 0.31
+    },
+    {
+        "x": 54,
+        "y": 39,
+        "distribution": 0.31
+    },
+    {
+        "x": 54,
+        "y": 40,
+        "distribution": 0.31
+    },
+    {
+        "x": 54,
+        "y": 41,
+        "distribution": 0.57
+    },
+    {
+        "x": 54,
+        "y": 42,
+        "distribution": 0.31
+    },
+    {
+        "x": 54,
+        "y": 43,
+        "distribution": 0.25
+    },
+    {
+        "x": 54,
+        "y": 44,
+        "distribution": 0.31
+    },
+    {
+        "x": 54,
+        "y": 45,
+        "distribution": 0.31
+    },
+    {
+        "x": 54,
+        "y": 46,
+        "distribution": 0.31
+    },
+    {
+        "x": 54,
+        "y": 47,
+        "distribution": 0.25
+    },
+    {
+        "x": 55,
+        "y": 32,
+        "distribution": 0.16
+    },
+    {
+        "x": 55,
+        "y": 33,
+        "distribution": 0.20
+    },
+    {
+        "x": 55,
+        "y": 34,
+        "distribution": 0.27
+    },
+    {
+        "x": 55,
+        "y": 35,
+        "distribution": 0.27
+    },
+    {
+        "x": 55,
+        "y": 36,
+        "distribution": 0.20
+    },
+    {
+        "x": 55,
+        "y": 37,
+        "distribution": 0.20
+    },
+    {
+        "x": 55,
+        "y": 38,
+        "distribution": 0.20
+    },
+    {
+        "x": 55,
+        "y": 39,
+        "distribution": 0.20
+    },
+    {
+        "x": 55,
+        "y": 40,
+        "distribution": 0.27
+    },
+    {
+        "x": 55,
+        "y": 41,
+        "distribution": 0.20
+    },
+    {
+        "x": 55,
+        "y": 42,
+        "distribution": 0.52
+    },
+    {
+        "x": 55,
+        "y": 43,
+        "distribution": 0.20
+    },
+    {
+        "x": 55,
+        "y": 44,
+        "distribution": 0.27
+    },
+    {
+        "x": 55,
+        "y": 45,
+        "distribution": 0.27
+    },
+    {
+        "x": 55,
+        "y": 46,
+        "distribution": 0.52
+    },
+    {
+        "x": 55,
+        "y": 47,
+        "distribution": 0.20
+    },
+    {
+        "x": 56,
+        "y": 32,
+        "distribution": 0.22
+    },
+    {
+        "x": 56,
+        "y": 33,
+        "distribution": 0.47
+    },
+    {
+        "x": 56,
+        "y": 34,
+        "distribution": 0.16
+    },
+    {
+        "x": 56,
+        "y": 35,
+        "distribution": 0.16
+    },
+    {
+        "x": 56,
+        "y": 36,
+        "distribution": 0.16
+    },
+    {
+        "x": 56,
+        "y": 37,
+        "distribution": 0.16
+    },
+    {
+        "x": 56,
+        "y": 38,
+        "distribution": 0.16
+    },
+    {
+        "x": 56,
+        "y": 39,
+        "distribution": 0.47
+    },
+    {
+        "x": 56,
+        "y": 40,
+        "distribution": 0.47
+    },
+    {
+        "x": 56,
+        "y": 41,
+        "distribution": 0.22
+    },
+    {
+        "x": 56,
+        "y": 42,
+        "distribution": 0.16
+    },
+    {
+        "x": 56,
+        "y": 43,
+        "distribution": 0.16
+    },
+    {
+        "x": 56,
+        "y": 44,
+        "distribution": 0.16
+    },
+    {
+        "x": 56,
+        "y": 45,
+        "distribution": 0.16
+    },
+    {
+        "x": 56,
+        "y": 46,
+        "distribution": 0.47
+    },
+    {
+        "x": 56,
+        "y": 47,
+        "distribution": 0.22
+    },
+    {
+        "x": 57,
+        "y": 32,
+        "distribution": 0.17
+    },
+    {
+        "x": 57,
+        "y": 33,
+        "distribution": 0.17
+    },
+    {
+        "x": 57,
+        "y": 34,
+        "distribution": 0.17
+    },
+    {
+        "x": 57,
+        "y": 35,
+        "distribution": 0.17
+    },
+    {
+        "x": 57,
+        "y": 36,
+        "distribution": 0.11
+    },
+    {
+        "x": 57,
+        "y": 37,
+        "distribution": 0.11
+    },
+    {
+        "x": 57,
+        "y": 38,
+        "distribution": 0.11
+    },
+    {
+        "x": 57,
+        "y": 39,
+        "distribution": 0.17
+    },
+    {
+        "x": 57,
+        "y": 40,
+        "distribution": 0.11
+    },
+    {
+        "x": 57,
+        "y": 41,
+        "distribution": 0.17
+    },
+    {
+        "x": 57,
+        "y": 42,
+        "distribution": 0.11
+    },
+    {
+        "x": 57,
+        "y": 43,
+        "distribution": 0.11
+    },
+    {
+        "x": 57,
+        "y": 44,
+        "distribution": 0.17
+    },
+    {
+        "x": 57,
+        "y": 45,
+        "distribution": 0.43
+    },
+    {
+        "x": 57,
+        "y": 46,
+        "distribution": 0.11
+    },
+    {
+        "x": 57,
+        "y": 47,
+        "distribution": 0.17
+    },
+    {
+        "x": 58,
+        "y": 32,
+        "distribution": 0.17
+    },
+    {
+        "x": 58,
+        "y": 33,
+        "distribution": 0.17
+    },
+    {
+        "x": 58,
+        "y": 34,
+        "distribution": 0.11
+    },
+    {
+        "x": 58,
+        "y": 35,
+        "distribution": 0.17
+    },
+    {
+        "x": 58,
+        "y": 36,
+        "distribution": 0.11
+    },
+    {
+        "x": 58,
+        "y": 37,
+        "distribution": 0.11
+    },
+    {
+        "x": 58,
+        "y": 38,
+        "distribution": 0.11
+    },
+    {
+        "x": 58,
+        "y": 39,
+        "distribution": 0.11
+    },
+    {
+        "x": 58,
+        "y": 40,
+        "distribution": 0.11
+    },
+    {
+        "x": 58,
+        "y": 41,
+        "distribution": 0.17
+    },
+    {
+        "x": 58,
+        "y": 42,
+        "distribution": 0.11
+    },
+    {
+        "x": 58,
+        "y": 43,
+        "distribution": 0.17
+    },
+    {
+        "x": 58,
+        "y": 44,
+        "distribution": 0.11
+    },
+    {
+        "x": 58,
+        "y": 45,
+        "distribution": 0.17
+    },
+    {
+        "x": 58,
+        "y": 46,
+        "distribution": 0.11
+    },
+    {
+        "x": 58,
+        "y": 47,
+        "distribution": 0.11
+    },
+    {
+        "x": 50,
+        "y": 12,
+        "distribution": 0.45
+    },
+    {
+        "x": 50,
+        "y": 13,
+        "distribution": 0.40
+    },
+    {
+        "x": 50,
+        "y": 14,
+        "distribution": 0.45
+    },
+    {
+        "x": 50,
+        "y": 15,
+        "distribution": 0.40
+    },
+    {
+        "x": 50,
+        "y": 16,
+        "distribution": 0.40
+    },
+    {
+        "x": 50,
+        "y": 17,
+        "distribution": 0.40
+    },
+    {
+        "x": 50,
+        "y": 18,
+        "distribution": 0.40
+    },
+    {
+        "x": 50,
+        "y": 19,
+        "distribution": 0.45
+    },
+    {
+        "x": 50,
+        "y": 20,
+        "distribution": 0.33
+    },
+    {
+        "x": 50,
+        "y": 21,
+        "distribution": 0.29
+    },
+    {
+        "x": 50,
+        "y": 22,
+        "distribution": 0.31
+    },
+    {
+        "x": 50,
+        "y": 23,
+        "distribution": 0.22
+    },
+    {
+        "x": 50,
+        "y": 24,
+        "distribution": 0.24
+    },
+    {
+        "x": 50,
+        "y": 25,
+        "distribution": 0.15
+    },
+    {
+        "x": 50,
+        "y": 26,
+        "distribution": 0.12
+    },
+    {
+        "x": 50,
+        "y": 27,
+        "distribution": 0.12
+    },
+    {
+        "x": 50,
+        "y": 28,
+        "distribution": 0.13
+    },
+    {
+        "x": 50,
+        "y": 29,
+        "distribution": 0.08
+    },
+    {
+        "x": 50,
+        "y": 30,
+        "distribution": 0.13
+    },
+    {
+        "x": 50,
+        "y": 31,
+        "distribution": 0.08
+    },
+    {
+        "x": 51,
+        "y": 12,
+        "distribution": 0.47
+    },
+    {
+        "x": 51,
+        "y": 13,
+        "distribution": 0.52
+    },
+    {
+        "x": 51,
+        "y": 14,
+        "distribution": 0.47
+    },
+    {
+        "x": 51,
+        "y": 15,
+        "distribution": 0.52
+    },
+    {
+        "x": 51,
+        "y": 16,
+        "distribution": 0.47
+    },
+    {
+        "x": 51,
+        "y": 17,
+        "distribution": 0.47
+    },
+    {
+        "x": 51,
+        "y": 18,
+        "distribution": 0.52
+    },
+    {
+        "x": 51,
+        "y": 19,
+        "distribution": 0.40
+    },
+    {
+        "x": 51,
+        "y": 20,
+        "distribution": 0.33
+    },
+    {
+        "x": 51,
+        "y": 21,
+        "distribution": 0.29
+    },
+    {
+        "x": 51,
+        "y": 22,
+        "distribution": 0.31
+    },
+    {
+        "x": 51,
+        "y": 23,
+        "distribution": 0.46
+    },
+    {
+        "x": 51,
+        "y": 24,
+        "distribution": 0.19
+    },
+    {
+        "x": 51,
+        "y": 25,
+        "distribution": 0.15
+    },
+    {
+        "x": 51,
+        "y": 26,
+        "distribution": 0.12
+    },
+    {
+        "x": 51,
+        "y": 27,
+        "distribution": 0.36
+    },
+    {
+        "x": 51,
+        "y": 28,
+        "distribution": 0.08
+    },
+    {
+        "x": 51,
+        "y": 29,
+        "distribution": 0.08
+    },
+    {
+        "x": 51,
+        "y": 30,
+        "distribution": 0.08
+    },
+    {
+        "x": 51,
+        "y": 31,
+        "distribution": 0.08
+    },
+    {
+        "x": 52,
+        "y": 12,
+        "distribution": 0.54
+    },
+    {
+        "x": 52,
+        "y": 13,
+        "distribution": 0.54
+    },
+    {
+        "x": 52,
+        "y": 14,
+        "distribution": 0.54
+    },
+    {
+        "x": 52,
+        "y": 15,
+        "distribution": 0.54
+    },
+    {
+        "x": 52,
+        "y": 16,
+        "distribution": 0.59
+    },
+    {
+        "x": 52,
+        "y": 17,
+        "distribution": 0.54
+    },
+    {
+        "x": 52,
+        "y": 18,
+        "distribution": 0.52
+    },
+    {
+        "x": 52,
+        "y": 19,
+        "distribution": 0.45
+    },
+    {
+        "x": 52,
+        "y": 20,
+        "distribution": 0.33
+    },
+    {
+        "x": 52,
+        "y": 21,
+        "distribution": 0.29
+    },
+    {
+        "x": 52,
+        "y": 22,
+        "distribution": 0.31
+    },
+    {
+        "x": 52,
+        "y": 23,
+        "distribution": 0.27
+    },
+    {
+        "x": 52,
+        "y": 24,
+        "distribution": 0.24
+    },
+    {
+        "x": 52,
+        "y": 25,
+        "distribution": 0.15
+    },
+    {
+        "x": 52,
+        "y": 26,
+        "distribution": 0.17
+    },
+    {
+        "x": 52,
+        "y": 27,
+        "distribution": 0.12
+    },
+    {
+        "x": 52,
+        "y": 28,
+        "distribution": 0.32
+    },
+    {
+        "x": 52,
+        "y": 29,
+        "distribution": 0.32
+    },
+    {
+        "x": 52,
+        "y": 30,
+        "distribution": 0.13
+    },
+    {
+        "x": 52,
+        "y": 31,
+        "distribution": 0.08
+    },
+    {
+        "x": 53,
+        "y": 12,
+        "distribution": 0.65
+    },
+    {
+        "x": 53,
+        "y": 13,
+        "distribution": 0.65
+    },
+    {
+        "x": 53,
+        "y": 14,
+        "distribution": 0.70
+    },
+    {
+        "x": 53,
+        "y": 15,
+        "distribution": 0.65
+    },
+    {
+        "x": 53,
+        "y": 16,
+        "distribution": 0.70
+    },
+    {
+        "x": 53,
+        "y": 17,
+        "distribution": 0.54
+    },
+    {
+        "x": 53,
+        "y": 18,
+        "distribution": 0.52
+    },
+    {
+        "x": 53,
+        "y": 19,
+        "distribution": 0.40
+    },
+    {
+        "x": 53,
+        "y": 20,
+        "distribution": 0.33
+    },
+    {
+        "x": 53,
+        "y": 21,
+        "distribution": 0.29
+    },
+    {
+        "x": 53,
+        "y": 22,
+        "distribution": 0.26
+    },
+    {
+        "x": 53,
+        "y": 23,
+        "distribution": 0.22
+    },
+    {
+        "x": 53,
+        "y": 24,
+        "distribution": 0.19
+    },
+    {
+        "x": 53,
+        "y": 25,
+        "distribution": 0.15
+    },
+    {
+        "x": 53,
+        "y": 26,
+        "distribution": 0.12
+    },
+    {
+        "x": 53,
+        "y": 27,
+        "distribution": 0.17
+    },
+    {
+        "x": 53,
+        "y": 28,
+        "distribution": 0.08
+    },
+    {
+        "x": 53,
+        "y": 29,
+        "distribution": 0.08
+    },
+    {
+        "x": 53,
+        "y": 30,
+        "distribution": 0.08
+    },
+    {
+        "x": 53,
+        "y": 31,
+        "distribution": 0.08
+    },
+    {
+        "x": 54,
+        "y": 16,
+        "distribution": 0.65
+    },
+    {
+        "x": 54,
+        "y": 17,
+        "distribution": 0.54
+    },
+    {
+        "x": 54,
+        "y": 18,
+        "distribution": 0.47
+    },
+    {
+        "x": 54,
+        "y": 19,
+        "distribution": 0.40
+    },
+    {
+        "x": 54,
+        "y": 20,
+        "distribution": 0.38
+    },
+    {
+        "x": 54,
+        "y": 21,
+        "distribution": 0.34
+    },
+    {
+        "x": 54,
+        "y": 22,
+        "distribution": 0.31
+    },
+    {
+        "x": 54,
+        "y": 23,
+        "distribution": 0.27
+    },
+    {
+        "x": 54,
+        "y": 24,
+        "distribution": 0.19
+    },
+    {
+        "x": 54,
+        "y": 25,
+        "distribution": 0.39
+    },
+    {
+        "x": 54,
+        "y": 26,
+        "distribution": 0.17
+    },
+    {
+        "x": 54,
+        "y": 27,
+        "distribution": 0.12
+    },
+    {
+        "x": 54,
+        "y": 28,
+        "distribution": 0.13
+    },
+    {
+        "x": 54,
+        "y": 29,
+        "distribution": 0.13
+    },
+    {
+        "x": 54,
+        "y": 30,
+        "distribution": 0.08
+    },
+    {
+        "x": 54,
+        "y": 31,
+        "distribution": 0.32
+    },
+    {
+        "x": 55,
+        "y": 16,
+        "distribution": 0.70
+    },
+    {
+        "x": 55,
+        "y": 17,
+        "distribution": 0.54
+    },
+    {
+        "x": 55,
+        "y": 18,
+        "distribution": 0.52
+    },
+    {
+        "x": 55,
+        "y": 19,
+        "distribution": 0.40
+    },
+    {
+        "x": 55,
+        "y": 20,
+        "distribution": 0.38
+    },
+    {
+        "x": 55,
+        "y": 21,
+        "distribution": 0.53
+    },
+    {
+        "x": 55,
+        "y": 22,
+        "distribution": 0.26
+    },
+    {
+        "x": 55,
+        "y": 23,
+        "distribution": 0.27
+    },
+    {
+        "x": 55,
+        "y": 24,
+        "distribution": 0.19
+    },
+    {
+        "x": 55,
+        "y": 25,
+        "distribution": 0.20
+    },
+    {
+        "x": 55,
+        "y": 26,
+        "distribution": 0.12
+    },
+    {
+        "x": 55,
+        "y": 27,
+        "distribution": 0.17
+    },
+    {
+        "x": 55,
+        "y": 28,
+        "distribution": 0.32
+    },
+    {
+        "x": 55,
+        "y": 29,
+        "distribution": 0.13
+    },
+    {
+        "x": 55,
+        "y": 30,
+        "distribution": 0.08
+    },
+    {
+        "x": 55,
+        "y": 31,
+        "distribution": 0.08
+    },
+    {
+        "x": 56,
+        "y": 16,
+        "distribution": 0.65
+    },
+    {
+        "x": 56,
+        "y": 17,
+        "distribution": 0.54
+    },
+    {
+        "x": 56,
+        "y": 18,
+        "distribution": 0.47
+    },
+    {
+        "x": 56,
+        "y": 19,
+        "distribution": 0.40
+    },
+    {
+        "x": 56,
+        "y": 20,
+        "distribution": 0.33
+    },
+    {
+        "x": 56,
+        "y": 21,
+        "distribution": 0.29
+    },
+    {
+        "x": 56,
+        "y": 22,
+        "distribution": 0.26
+    },
+    {
+        "x": 56,
+        "y": 23,
+        "distribution": 0.22
+    },
+    {
+        "x": 56,
+        "y": 24,
+        "distribution": 0.43
+    },
+    {
+        "x": 56,
+        "y": 25,
+        "distribution": 0.20
+    },
+    {
+        "x": 56,
+        "y": 26,
+        "distribution": 0.12
+    },
+    {
+        "x": 56,
+        "y": 27,
+        "distribution": 0.12
+    },
+    {
+        "x": 56,
+        "y": 28,
+        "distribution": 0.13
+    },
+    {
+        "x": 56,
+        "y": 29,
+        "distribution": 0.08
+    },
+    {
+        "x": 56,
+        "y": 30,
+        "distribution": 0.08
+    },
+    {
+        "x": 56,
+        "y": 31,
+        "distribution": 0.08
+    },
+    {
+        "x": 57,
+        "y": 16,
+        "distribution": 0.70
+    },
+    {
+        "x": 57,
+        "y": 17,
+        "distribution": 0.78
+    },
+    {
+        "x": 57,
+        "y": 18,
+        "distribution": 0.47
+    },
+    {
+        "x": 57,
+        "y": 19,
+        "distribution": 0.40
+    },
+    {
+        "x": 57,
+        "y": 20,
+        "distribution": 0.33
+    },
+    {
+        "x": 57,
+        "y": 21,
+        "distribution": 0.29
+    },
+    {
+        "x": 57,
+        "y": 22,
+        "distribution": 0.26
+    },
+    {
+        "x": 57,
+        "y": 23,
+        "distribution": 0.27
+    },
+    {
+        "x": 57,
+        "y": 24,
+        "distribution": 0.43
+    },
+    {
+        "x": 57,
+        "y": 25,
+        "distribution": 0.39
+    },
+    {
+        "x": 57,
+        "y": 26,
+        "distribution": 0.17
+    },
+    {
+        "x": 57,
+        "y": 27,
+        "distribution": 0.12
+    },
+    {
+        "x": 57,
+        "y": 28,
+        "distribution": 0.08
+    },
+    {
+        "x": 57,
+        "y": 29,
+        "distribution": 0.08
+    },
+    {
+        "x": 57,
+        "y": 30,
+        "distribution": 0.13
+    },
+    {
+        "x": 57,
+        "y": 31,
+        "distribution": 0.08
+    },
+    {
+        "x": 58,
+        "y": 12,
+        "distribution": 0.70
+    },
+    {
+        "x": 58,
+        "y": 13,
+        "distribution": 0.91
+    },
+    {
+        "x": 58,
+        "y": 14,
+        "distribution": 0.70
+    },
+    {
+        "x": 58,
+        "y": 15,
+        "distribution": 0.65
+    },
+    {
+        "x": 58,
+        "y": 16,
+        "distribution": 0.91
+    },
+    {
+        "x": 58,
+        "y": 17,
+        "distribution": 0.54
+    },
+    {
+        "x": 58,
+        "y": 18,
+        "distribution": 0.47
+    },
+    {
+        "x": 58,
+        "y": 19,
+        "distribution": 0.45
+    },
+    {
+        "x": 58,
+        "y": 20,
+        "distribution": 0.57
+    },
+    {
+        "x": 58,
+        "y": 21,
+        "distribution": 0.29
+    },
+    {
+        "x": 58,
+        "y": 22,
+        "distribution": 0.26
+    },
+    {
+        "x": 58,
+        "y": 23,
+        "distribution": 0.27
+    },
+    {
+        "x": 58,
+        "y": 24,
+        "distribution": 0.19
+    },
+    {
+        "x": 58,
+        "y": 25,
+        "distribution": 0.15
+    },
+    {
+        "x": 58,
+        "y": 26,
+        "distribution": 0.12
+    },
+    {
+        "x": 58,
+        "y": 27,
+        "distribution": 0.17
+    },
+    {
+        "x": 58,
+        "y": 28,
+        "distribution": 0.32
+    },
+    {
+        "x": 58,
+        "y": 29,
+        "distribution": 0.08
+    },
+    {
+        "x": 58,
+        "y": 30,
+        "distribution": 0.08
+    },
+    {
+        "x": 58,
+        "y": 31,
+        "distribution": 0.13
+    },
+    {
+        "x": 59,
+        "y": 12,
+        "distribution": 0.54
+    },
+    {
+        "x": 59,
+        "y": 13,
+        "distribution": 0.54
+    },
+    {
+        "x": 59,
+        "y": 14,
+        "distribution": 0.59
+    },
+    {
+        "x": 59,
+        "y": 15,
+        "distribution": 0.59
+    },
+    {
+        "x": 59,
+        "y": 16,
+        "distribution": 0.54
+    },
+    {
+        "x": 59,
+        "y": 17,
+        "distribution": 0.59
+    },
+    {
+        "x": 59,
+        "y": 18,
+        "distribution": 0.47
+    },
+    {
+        "x": 59,
+        "y": 19,
+        "distribution": 0.40
+    },
+    {
+        "x": 59,
+        "y": 20,
+        "distribution": 0.38
+    },
+    {
+        "x": 59,
+        "y": 21,
+        "distribution": 0.29
+    },
+    {
+        "x": 59,
+        "y": 22,
+        "distribution": 0.26
+    },
+    {
+        "x": 59,
+        "y": 23,
+        "distribution": 0.22
+    },
+    {
+        "x": 59,
+        "y": 24,
+        "distribution": 0.43
+    },
+    {
+        "x": 59,
+        "y": 25,
+        "distribution": 0.20
+    },
+    {
+        "x": 59,
+        "y": 26,
+        "distribution": 0.12
+    },
+    {
+        "x": 59,
+        "y": 27,
+        "distribution": 0.12
+    },
+    {
+        "x": 59,
+        "y": 28,
+        "distribution": 0.13
+    },
+    {
+        "x": 59,
+        "y": 29,
+        "distribution": 0.13
+    },
+    {
+        "x": 59,
+        "y": 30,
+        "distribution": 0.32
+    },
+    {
+        "x": 59,
+        "y": 31,
+        "distribution": 0.08
+    },
+    {
+        "x": 60,
+        "y": 12,
+        "distribution": 0.52
+    },
+    {
+        "x": 60,
+        "y": 13,
+        "distribution": 0.47
+    },
+    {
+        "x": 60,
+        "y": 14,
+        "distribution": 0.71
+    },
+    {
+        "x": 60,
+        "y": 15,
+        "distribution": 0.47
+    },
+    {
+        "x": 60,
+        "y": 16,
+        "distribution": 0.47
+    },
+    {
+        "x": 60,
+        "y": 17,
+        "distribution": 0.47
+    },
+    {
+        "x": 60,
+        "y": 18,
+        "distribution": 0.52
+    },
+    {
+        "x": 60,
+        "y": 19,
+        "distribution": 0.40
+    },
+    {
+        "x": 60,
+        "y": 20,
+        "distribution": 0.33
+    },
+    {
+        "x": 60,
+        "y": 21,
+        "distribution": 0.53
+    },
+    {
+        "x": 60,
+        "y": 22,
+        "distribution": 0.26
+    },
+    {
+        "x": 60,
+        "y": 23,
+        "distribution": 0.27
+    },
+    {
+        "x": 60,
+        "y": 24,
+        "distribution": 0.43
+    },
+    {
+        "x": 60,
+        "y": 25,
+        "distribution": 0.15
+    },
+    {
+        "x": 60,
+        "y": 26,
+        "distribution": 0.12
+    },
+    {
+        "x": 60,
+        "y": 27,
+        "distribution": 0.17
+    },
+    {
+        "x": 60,
+        "y": 28,
+        "distribution": 0.08
+    },
+    {
+        "x": 60,
+        "y": 29,
+        "distribution": 0.08
+    },
+    {
+        "x": 60,
+        "y": 30,
+        "distribution": 0.08
+    },
+    {
+        "x": 60,
+        "y": 31,
+        "distribution": 0.13
+    },
+    {
+        "x": 61,
+        "y": 12,
+        "distribution": 0.40
+    },
+    {
+        "x": 61,
+        "y": 13,
+        "distribution": 0.40
+    },
+    {
+        "x": 61,
+        "y": 14,
+        "distribution": 0.40
+    },
+    {
+        "x": 61,
+        "y": 15,
+        "distribution": 0.45
+    },
+    {
+        "x": 61,
+        "y": 16,
+        "distribution": 0.40
+    },
+    {
+        "x": 61,
+        "y": 17,
+        "distribution": 0.40
+    },
+    {
+        "x": 61,
+        "y": 18,
+        "distribution": 0.64
+    },
+    {
+        "x": 61,
+        "y": 19,
+        "distribution": 0.40
+    },
+    {
+        "x": 61,
+        "y": 20,
+        "distribution": 0.33
+    },
+    {
+        "x": 61,
+        "y": 21,
+        "distribution": 0.29
+    },
+    {
+        "x": 61,
+        "y": 22,
+        "distribution": 0.50
+    },
+    {
+        "x": 61,
+        "y": 23,
+        "distribution": 0.22
+    },
+    {
+        "x": 61,
+        "y": 24,
+        "distribution": 0.24
+    },
+    {
+        "x": 61,
+        "y": 25,
+        "distribution": 0.15
+    },
+    {
+        "x": 61,
+        "y": 26,
+        "distribution": 0.17
+    },
+    {
+        "x": 61,
+        "y": 27,
+        "distribution": 0.12
+    },
+    {
+        "x": 61,
+        "y": 28,
+        "distribution": 0.08
+    },
+    {
+        "x": 61,
+        "y": 29,
+        "distribution": 0.08
+    },
+    {
+        "x": 61,
+        "y": 30,
+        "distribution": 0.08
+    },
+    {
+        "x": 61,
+        "y": 31,
+        "distribution": 0.08
+    },
+    {
+        "x": 62,
+        "y": 12,
+        "distribution": 0.33
+    },
+    {
+        "x": 62,
+        "y": 13,
+        "distribution": 0.33
+    },
+    {
+        "x": 62,
+        "y": 14,
+        "distribution": 0.38
+    },
+    {
+        "x": 62,
+        "y": 15,
+        "distribution": 0.33
+    },
+    {
+        "x": 62,
+        "y": 16,
+        "distribution": 0.33
+    },
+    {
+        "x": 62,
+        "y": 17,
+        "distribution": 0.33
+    },
+    {
+        "x": 62,
+        "y": 18,
+        "distribution": 0.38
+    },
+    {
+        "x": 62,
+        "y": 19,
+        "distribution": 0.33
+    },
+    {
+        "x": 62,
+        "y": 20,
+        "distribution": 0.33
+    },
+    {
+        "x": 62,
+        "y": 21,
+        "distribution": 0.29
+    },
+    {
+        "x": 62,
+        "y": 22,
+        "distribution": 0.31
+    },
+    {
+        "x": 62,
+        "y": 23,
+        "distribution": 0.22
+    },
+    {
+        "x": 62,
+        "y": 24,
+        "distribution": 0.19
+    },
+    {
+        "x": 62,
+        "y": 25,
+        "distribution": 0.15
+    },
+    {
+        "x": 62,
+        "y": 26,
+        "distribution": 0.17
+    },
+    {
+        "x": 62,
+        "y": 27,
+        "distribution": 0.17
+    },
+    {
+        "x": 62,
+        "y": 28,
+        "distribution": 0.32
+    },
+    {
+        "x": 62,
+        "y": 29,
+        "distribution": 0.08
+    },
+    {
+        "x": 62,
+        "y": 30,
+        "distribution": 0.08
+    },
+    {
+        "x": 62,
+        "y": 31,
+        "distribution": 0.13
+    },
+    {
+        "x": 63,
+        "y": 12,
+        "distribution": 0.29
+    },
+    {
+        "x": 63,
+        "y": 13,
+        "distribution": 0.29
+    },
+    {
+        "x": 63,
+        "y": 14,
+        "distribution": 0.29
+    },
+    {
+        "x": 63,
+        "y": 15,
+        "distribution": 0.29
+    },
+    {
+        "x": 63,
+        "y": 16,
+        "distribution": 0.29
+    },
+    {
+        "x": 63,
+        "y": 17,
+        "distribution": 0.29
+    },
+    {
+        "x": 63,
+        "y": 18,
+        "distribution": 0.34
+    },
+    {
+        "x": 63,
+        "y": 19,
+        "distribution": 0.29
+    },
+    {
+        "x": 63,
+        "y": 20,
+        "distribution": 0.29
+    },
+    {
+        "x": 63,
+        "y": 21,
+        "distribution": 0.29
+    },
+    {
+        "x": 63,
+        "y": 22,
+        "distribution": 0.26
+    },
+    {
+        "x": 63,
+        "y": 23,
+        "distribution": 0.22
+    },
+    {
+        "x": 63,
+        "y": 24,
+        "distribution": 0.19
+    },
+    {
+        "x": 63,
+        "y": 25,
+        "distribution": 0.39
+    },
+    {
+        "x": 63,
+        "y": 26,
+        "distribution": 0.17
+    },
+    {
+        "x": 63,
+        "y": 27,
+        "distribution": 0.12
+    },
+    {
+        "x": 63,
+        "y": 28,
+        "distribution": 0.08
+    },
+    {
+        "x": 63,
+        "y": 29,
+        "distribution": 0.08
+    },
+    {
+        "x": 63,
+        "y": 30,
+        "distribution": 0.08
+    },
+    {
+        "x": 63,
+        "y": 31,
+        "distribution": 0.32
+    },
+    {
+        "x": 64,
+        "y": 12,
+        "distribution": 0.31
+    },
+    {
+        "x": 64,
+        "y": 13,
+        "distribution": 0.31
+    },
+    {
+        "x": 64,
+        "y": 14,
+        "distribution": 0.26
+    },
+    {
+        "x": 64,
+        "y": 15,
+        "distribution": 0.31
+    },
+    {
+        "x": 64,
+        "y": 16,
+        "distribution": 0.26
+    },
+    {
+        "x": 64,
+        "y": 17,
+        "distribution": 0.31
+    },
+    {
+        "x": 64,
+        "y": 18,
+        "distribution": 0.31
+    },
+    {
+        "x": 64,
+        "y": 19,
+        "distribution": 0.50
+    },
+    {
+        "x": 64,
+        "y": 20,
+        "distribution": 0.26
+    },
+    {
+        "x": 64,
+        "y": 21,
+        "distribution": 0.31
+    },
+    {
+        "x": 64,
+        "y": 22,
+        "distribution": 0.26
+    },
+    {
+        "x": 64,
+        "y": 23,
+        "distribution": 0.22
+    },
+    {
+        "x": 64,
+        "y": 24,
+        "distribution": 0.19
+    },
+    {
+        "x": 64,
+        "y": 25,
+        "distribution": 0.20
+    },
+    {
+        "x": 64,
+        "y": 26,
+        "distribution": 0.17
+    },
+    {
+        "x": 64,
+        "y": 27,
+        "distribution": 0.12
+    },
+    {
+        "x": 64,
+        "y": 28,
+        "distribution": 0.13
+    },
+    {
+        "x": 64,
+        "y": 29,
+        "distribution": 0.13
+    },
+    {
+        "x": 64,
+        "y": 30,
+        "distribution": 0.08
+    },
+    {
+        "x": 64,
+        "y": 31,
+        "distribution": 0.08
+    },
+    {
+        "x": 65,
+        "y": 12,
+        "distribution": 0.22
+    },
+    {
+        "x": 65,
+        "y": 13,
+        "distribution": 0.22
+    },
+    {
+        "x": 65,
+        "y": 14,
+        "distribution": 0.22
+    },
+    {
+        "x": 65,
+        "y": 15,
+        "distribution": 0.27
+    },
+    {
+        "x": 65,
+        "y": 16,
+        "distribution": 0.27
+    },
+    {
+        "x": 65,
+        "y": 17,
+        "distribution": 0.22
+    },
+    {
+        "x": 65,
+        "y": 18,
+        "distribution": 0.22
+    },
+    {
+        "x": 65,
+        "y": 19,
+        "distribution": 0.46
+    },
+    {
+        "x": 65,
+        "y": 20,
+        "distribution": 0.22
+    },
+    {
+        "x": 65,
+        "y": 21,
+        "distribution": 0.22
+    },
+    {
+        "x": 65,
+        "y": 22,
+        "distribution": 0.46
+    },
+    {
+        "x": 65,
+        "y": 23,
+        "distribution": 0.22
+    },
+    {
+        "x": 65,
+        "y": 24,
+        "distribution": 0.19
+    },
+    {
+        "x": 65,
+        "y": 25,
+        "distribution": 0.15
+    },
+    {
+        "x": 65,
+        "y": 26,
+        "distribution": 0.12
+    },
+    {
+        "x": 65,
+        "y": 27,
+        "distribution": 0.36
+    },
+    {
+        "x": 65,
+        "y": 28,
+        "distribution": 0.13
+    },
+    {
+        "x": 65,
+        "y": 29,
+        "distribution": 0.08
+    },
+    {
+        "x": 65,
+        "y": 30,
+        "distribution": 0.08
+    },
+    {
+        "x": 65,
+        "y": 31,
+        "distribution": 0.32
+    },
+    {
+        "x": 66,
+        "y": 12,
+        "distribution": 0.19
+    },
+    {
+        "x": 66,
+        "y": 13,
+        "distribution": 0.19
+    },
+    {
+        "x": 66,
+        "y": 14,
+        "distribution": 0.19
+    },
+    {
+        "x": 66,
+        "y": 15,
+        "distribution": 0.24
+    },
+    {
+        "x": 66,
+        "y": 16,
+        "distribution": 0.24
+    },
+    {
+        "x": 66,
+        "y": 17,
+        "distribution": 0.24
+    },
+    {
+        "x": 66,
+        "y": 18,
+        "distribution": 0.19
+    },
+    {
+        "x": 66,
+        "y": 19,
+        "distribution": 0.43
+    },
+    {
+        "x": 66,
+        "y": 20,
+        "distribution": 0.24
+    },
+    {
+        "x": 66,
+        "y": 21,
+        "distribution": 0.19
+    },
+    {
+        "x": 66,
+        "y": 22,
+        "distribution": 0.19
+    },
+    {
+        "x": 66,
+        "y": 23,
+        "distribution": 0.19
+    },
+    {
+        "x": 66,
+        "y": 24,
+        "distribution": 0.19
+    },
+    {
+        "x": 66,
+        "y": 25,
+        "distribution": 0.15
+    },
+    {
+        "x": 66,
+        "y": 26,
+        "distribution": 0.17
+    },
+    {
+        "x": 66,
+        "y": 27,
+        "distribution": 0.12
+    },
+    {
+        "x": 66,
+        "y": 28,
+        "distribution": 0.13
+    },
+    {
+        "x": 66,
+        "y": 29,
+        "distribution": 0.13
+    },
+    {
+        "x": 66,
+        "y": 30,
+        "distribution": 0.32
+    },
+    {
+        "x": 66,
+        "y": 31,
+        "distribution": 0.13
+    },
+    {
+        "x": 67,
+        "y": 12,
+        "distribution": 0.20
+    },
+    {
+        "x": 67,
+        "y": 13,
+        "distribution": 0.39
+    },
+    {
+        "x": 67,
+        "y": 14,
+        "distribution": 0.15
+    },
+    {
+        "x": 67,
+        "y": 15,
+        "distribution": 0.39
+    },
+    {
+        "x": 67,
+        "y": 16,
+        "distribution": 0.15
+    },
+    {
+        "x": 67,
+        "y": 17,
+        "distribution": 0.20
+    },
+    {
+        "x": 67,
+        "y": 18,
+        "distribution": 0.15
+    },
+    {
+        "x": 67,
+        "y": 19,
+        "distribution": 0.20
+    },
+    {
+        "x": 67,
+        "y": 20,
+        "distribution": 0.15
+    },
+    {
+        "x": 67,
+        "y": 21,
+        "distribution": 0.20
+    },
+    {
+        "x": 67,
+        "y": 22,
+        "distribution": 0.15
+    },
+    {
+        "x": 67,
+        "y": 23,
+        "distribution": 0.20
+    },
+    {
+        "x": 67,
+        "y": 24,
+        "distribution": 0.15
+    },
+    {
+        "x": 67,
+        "y": 25,
+        "distribution": 0.39
+    },
+    {
+        "x": 67,
+        "y": 26,
+        "distribution": 0.36
+    },
+    {
+        "x": 67,
+        "y": 27,
+        "distribution": 0.36
+    },
+    {
+        "x": 67,
+        "y": 28,
+        "distribution": 0.08
+    },
+    {
+        "x": 67,
+        "y": 29,
+        "distribution": 0.13
+    },
+    {
+        "x": 67,
+        "y": 30,
+        "distribution": 0.13
+    },
+    {
+        "x": 67,
+        "y": 31,
+        "distribution": 0.08
+    },
+    {
+        "x": 61,
+        "y": 71,
+        "distribution": 0.08
+    },
+    {
+        "x": 61,
+        "y": 72,
+        "distribution": 0.13
+    },
+    {
+        "x": 61,
+        "y": 73,
+        "distribution": 0.09
+    },
+    {
+        "x": 61,
+        "y": 74,
+        "distribution": 0.09
+    },
+    {
+        "x": 61,
+        "y": 75,
+        "distribution": 0.17
+    },
+    {
+        "x": 61,
+        "y": 76,
+        "distribution": 0.21
+    },
+    {
+        "x": 61,
+        "y": 77,
+        "distribution": 0.24
+    },
+    {
+        "x": 61,
+        "y": 78,
+        "distribution": 0.23
+    },
+    {
+        "x": 61,
+        "y": 79,
+        "distribution": 0.26
+    },
+    {
+        "x": 61,
+        "y": 80,
+        "distribution": 0.30
+    },
+    {
+        "x": 61,
+        "y": 81,
+        "distribution": 0.34
+    },
+    {
+        "x": 61,
+        "y": 82,
+        "distribution": 0.41
+    },
+    {
+        "x": 61,
+        "y": 83,
+        "distribution": 0.53
+    },
+    {
+        "x": 61,
+        "y": 84,
+        "distribution": 0.60
+    },
+    {
+        "x": 61,
+        "y": 85,
+        "distribution": 0.60
+    },
+    {
+        "x": 61,
+        "y": 86,
+        "distribution": 0.55
+    },
+    {
+        "x": 61,
+        "y": 87,
+        "distribution": 0.55
+    },
+    {
+        "x": 61,
+        "y": 88,
+        "distribution": 0.55
+    },
+    {
+        "x": 61,
+        "y": 89,
+        "distribution": 0.60
+    },
+    {
+        "x": 61,
+        "y": 90,
+        "distribution": 0.60
+    },
+    {
+        "x": 61,
+        "y": 91,
+        "distribution": 0.55
+    },
+    {
+        "x": 61,
+        "y": 92,
+        "distribution": 0.73
+    },
+    {
+        "x": 62,
+        "y": 71,
+        "distribution": 0.13
+    },
+    {
+        "x": 62,
+        "y": 72,
+        "distribution": 0.09
+    },
+    {
+        "x": 62,
+        "y": 73,
+        "distribution": 0.33
+    },
+    {
+        "x": 62,
+        "y": 74,
+        "distribution": 0.33
+    },
+    {
+        "x": 62,
+        "y": 75,
+        "distribution": 0.17
+    },
+    {
+        "x": 62,
+        "y": 76,
+        "distribution": 0.16
+    },
+    {
+        "x": 62,
+        "y": 77,
+        "distribution": 0.19
+    },
+    {
+        "x": 62,
+        "y": 78,
+        "distribution": 0.28
+    },
+    {
+        "x": 62,
+        "y": 79,
+        "distribution": 0.26
+    },
+    {
+        "x": 62,
+        "y": 80,
+        "distribution": 0.30
+    },
+    {
+        "x": 62,
+        "y": 81,
+        "distribution": 0.34
+    },
+    {
+        "x": 62,
+        "y": 82,
+        "distribution": 0.65
+    },
+    {
+        "x": 62,
+        "y": 83,
+        "distribution": 0.53
+    },
+    {
+        "x": 62,
+        "y": 84,
+        "distribution": 0.80
+    },
+    {
+        "x": 62,
+        "y": 85,
+        "distribution": 0.71
+    },
+    {
+        "x": 62,
+        "y": 86,
+        "distribution": 0.71
+    },
+    {
+        "x": 62,
+        "y": 87,
+        "distribution": 0.66
+    },
+    {
+        "x": 62,
+        "y": 88,
+        "distribution": 0.66
+    },
+    {
+        "x": 62,
+        "y": 89,
+        "distribution": 0.66
+    },
+    {
+        "x": 62,
+        "y": 90,
+        "distribution": 0.66
+    },
+    {
+        "x": 62,
+        "y": 91,
+        "distribution": 0.60
+    },
+    {
+        "x": 62,
+        "y": 92,
+        "distribution": 0.53
+    },
+    {
+        "x": 63,
+        "y": 71,
+        "distribution": 0.33
+    },
+    {
+        "x": 63,
+        "y": 72,
+        "distribution": 0.13
+    },
+    {
+        "x": 63,
+        "y": 73,
+        "distribution": 0.13
+    },
+    {
+        "x": 63,
+        "y": 74,
+        "distribution": 0.09
+    },
+    {
+        "x": 63,
+        "y": 75,
+        "distribution": 0.12
+    },
+    {
+        "x": 63,
+        "y": 76,
+        "distribution": 0.16
+    },
+    {
+        "x": 63,
+        "y": 77,
+        "distribution": 0.24
+    },
+    {
+        "x": 63,
+        "y": 78,
+        "distribution": 0.23
+    },
+    {
+        "x": 63,
+        "y": 79,
+        "distribution": 0.26
+    },
+    {
+        "x": 63,
+        "y": 80,
+        "distribution": 0.35
+    },
+    {
+        "x": 63,
+        "y": 81,
+        "distribution": 0.34
+    },
+    {
+        "x": 63,
+        "y": 82,
+        "distribution": 0.46
+    },
+    {
+        "x": 63,
+        "y": 83,
+        "distribution": 0.48
+    },
+    {
+        "x": 63,
+        "y": 84,
+        "distribution": 0.55
+    },
+    {
+        "x": 63,
+        "y": 85,
+        "distribution": 0.71
+    },
+    {
+        "x": 63,
+        "y": 90,
+        "distribution": 0.66
+    },
+    {
+        "x": 63,
+        "y": 91,
+        "distribution": 0.60
+    },
+    {
+        "x": 63,
+        "y": 92,
+        "distribution": 0.53
+    },
+    {
+        "x": 64,
+        "y": 71,
+        "distribution": 0.08
+    },
+    {
+        "x": 64,
+        "y": 72,
+        "distribution": 0.09
+    },
+    {
+        "x": 64,
+        "y": 73,
+        "distribution": 0.09
+    },
+    {
+        "x": 64,
+        "y": 74,
+        "distribution": 0.09
+    },
+    {
+        "x": 64,
+        "y": 75,
+        "distribution": 0.12
+    },
+    {
+        "x": 64,
+        "y": 76,
+        "distribution": 0.16
+    },
+    {
+        "x": 64,
+        "y": 77,
+        "distribution": 0.24
+    },
+    {
+        "x": 64,
+        "y": 78,
+        "distribution": 0.23
+    },
+    {
+        "x": 64,
+        "y": 79,
+        "distribution": 0.26
+    },
+    {
+        "x": 64,
+        "y": 80,
+        "distribution": 0.30
+    },
+    {
+        "x": 64,
+        "y": 81,
+        "distribution": 0.34
+    },
+    {
+        "x": 64,
+        "y": 82,
+        "distribution": 0.41
+    },
+    {
+        "x": 64,
+        "y": 83,
+        "distribution": 0.48
+    },
+    {
+        "x": 64,
+        "y": 84,
+        "distribution": 0.60
+    },
+    {
+        "x": 64,
+        "y": 85,
+        "distribution": 0.66
+    },
+    {
+        "x": 64,
+        "y": 90,
+        "distribution": 0.66
+    },
+    {
+        "x": 64,
+        "y": 91,
+        "distribution": 0.60
+    },
+    {
+        "x": 64,
+        "y": 92,
+        "distribution": 0.48
+    },
+    {
+        "x": 65,
+        "y": 71,
+        "distribution": 0.08
+    },
+    {
+        "x": 65,
+        "y": 72,
+        "distribution": 0.13
+    },
+    {
+        "x": 65,
+        "y": 73,
+        "distribution": 0.33
+    },
+    {
+        "x": 65,
+        "y": 74,
+        "distribution": 0.13
+    },
+    {
+        "x": 65,
+        "y": 75,
+        "distribution": 0.37
+    },
+    {
+        "x": 65,
+        "y": 76,
+        "distribution": 0.16
+    },
+    {
+        "x": 65,
+        "y": 77,
+        "distribution": 0.19
+    },
+    {
+        "x": 65,
+        "y": 78,
+        "distribution": 0.28
+    },
+    {
+        "x": 65,
+        "y": 79,
+        "distribution": 0.26
+    },
+    {
+        "x": 65,
+        "y": 80,
+        "distribution": 0.35
+    },
+    {
+        "x": 65,
+        "y": 81,
+        "distribution": 0.34
+    },
+    {
+        "x": 65,
+        "y": 82,
+        "distribution": 0.41
+    },
+    {
+        "x": 65,
+        "y": 83,
+        "distribution": 0.48
+    },
+    {
+        "x": 65,
+        "y": 84,
+        "distribution": 0.55
+    },
+    {
+        "x": 65,
+        "y": 85,
+        "distribution": 0.71
+    },
+    {
+        "x": 65,
+        "y": 90,
+        "distribution": 0.71
+    },
+    {
+        "x": 65,
+        "y": 91,
+        "distribution": 0.55
+    },
+    {
+        "x": 65,
+        "y": 92,
+        "distribution": 0.48
+    },
+    {
+        "x": 66,
+        "y": 71,
+        "distribution": 0.33
+    },
+    {
+        "x": 66,
+        "y": 72,
+        "distribution": 0.13
+    },
+    {
+        "x": 66,
+        "y": 73,
+        "distribution": 0.09
+    },
+    {
+        "x": 66,
+        "y": 74,
+        "distribution": 0.09
+    },
+    {
+        "x": 66,
+        "y": 75,
+        "distribution": 0.12
+    },
+    {
+        "x": 66,
+        "y": 76,
+        "distribution": 0.16
+    },
+    {
+        "x": 66,
+        "y": 77,
+        "distribution": 0.24
+    },
+    {
+        "x": 66,
+        "y": 78,
+        "distribution": 0.23
+    },
+    {
+        "x": 66,
+        "y": 79,
+        "distribution": 0.26
+    },
+    {
+        "x": 66,
+        "y": 80,
+        "distribution": 0.35
+    },
+    {
+        "x": 66,
+        "y": 81,
+        "distribution": 0.34
+    },
+    {
+        "x": 66,
+        "y": 82,
+        "distribution": 0.41
+    },
+    {
+        "x": 66,
+        "y": 83,
+        "distribution": 0.48
+    },
+    {
+        "x": 66,
+        "y": 84,
+        "distribution": 0.55
+    },
+    {
+        "x": 66,
+        "y": 85,
+        "distribution": 0.66
+    },
+    {
+        "x": 66,
+        "y": 90,
+        "distribution": 0.71
+    },
+    {
+        "x": 66,
+        "y": 91,
+        "distribution": 0.55
+    },
+    {
+        "x": 66,
+        "y": 92,
+        "distribution": 0.48
+    },
+    {
+        "x": 67,
+        "y": 71,
+        "distribution": 0.08
+    },
+    {
+        "x": 67,
+        "y": 72,
+        "distribution": 0.33
+    },
+    {
+        "x": 67,
+        "y": 73,
+        "distribution": 0.09
+    },
+    {
+        "x": 67,
+        "y": 74,
+        "distribution": 0.09
+    },
+    {
+        "x": 67,
+        "y": 75,
+        "distribution": 0.12
+    },
+    {
+        "x": 67,
+        "y": 76,
+        "distribution": 0.21
+    },
+    {
+        "x": 67,
+        "y": 77,
+        "distribution": 0.24
+    },
+    {
+        "x": 67,
+        "y": 78,
+        "distribution": 0.23
+    },
+    {
+        "x": 67,
+        "y": 79,
+        "distribution": 0.26
+    },
+    {
+        "x": 67,
+        "y": 80,
+        "distribution": 0.35
+    },
+    {
+        "x": 67,
+        "y": 81,
+        "distribution": 0.34
+    },
+    {
+        "x": 67,
+        "y": 82,
+        "distribution": 0.41
+    },
+    {
+        "x": 67,
+        "y": 83,
+        "distribution": 0.48
+    },
+    {
+        "x": 67,
+        "y": 84,
+        "distribution": 0.60
+    },
+    {
+        "x": 67,
+        "y": 85,
+        "distribution": 0.66
+    },
+    {
+        "x": 67,
+        "y": 90,
+        "distribution": 0.71
+    },
+    {
+        "x": 67,
+        "y": 91,
+        "distribution": 0.55
+    },
+    {
+        "x": 67,
+        "y": 92,
+        "distribution": 0.48
+    },
+    {
+        "x": 68,
+        "y": 71,
+        "distribution": 0.13
+    },
+    {
+        "x": 68,
+        "y": 72,
+        "distribution": 0.13
+    },
+    {
+        "x": 68,
+        "y": 73,
+        "distribution": 0.09
+    },
+    {
+        "x": 68,
+        "y": 74,
+        "distribution": 0.09
+    },
+    {
+        "x": 68,
+        "y": 75,
+        "distribution": 0.17
+    },
+    {
+        "x": 68,
+        "y": 76,
+        "distribution": 0.16
+    },
+    {
+        "x": 68,
+        "y": 77,
+        "distribution": 0.19
+    },
+    {
+        "x": 68,
+        "y": 78,
+        "distribution": 0.28
+    },
+    {
+        "x": 68,
+        "y": 79,
+        "distribution": 0.31
+    },
+    {
+        "x": 68,
+        "y": 80,
+        "distribution": 0.30
+    },
+    {
+        "x": 68,
+        "y": 81,
+        "distribution": 0.34
+    },
+    {
+        "x": 68,
+        "y": 82,
+        "distribution": 0.46
+    },
+    {
+        "x": 68,
+        "y": 83,
+        "distribution": 0.48
+    },
+    {
+        "x": 68,
+        "y": 84,
+        "distribution": 0.55
+    },
+    {
+        "x": 68,
+        "y": 85,
+        "distribution": 0.66
+    },
+    {
+        "x": 68,
+        "y": 86,
+        "distribution": 0.66
+    },
+    {
+        "x": 68,
+        "y": 87,
+        "distribution": 0.91
+    },
+    {
+        "x": 68,
+        "y": 88,
+        "distribution": 0.66
+    },
+    {
+        "x": 68,
+        "y": 89,
+        "distribution": 0.66
+    },
+    {
+        "x": 68,
+        "y": 90,
+        "distribution": 0.71
+    },
+    {
+        "x": 68,
+        "y": 91,
+        "distribution": 0.55
+    },
+    {
+        "x": 68,
+        "y": 92,
+        "distribution": 0.48
+    },
+    {
+        "x": 69,
+        "y": 71,
+        "distribution": 0.08
+    },
+    {
+        "x": 69,
+        "y": 72,
+        "distribution": 0.09
+    },
+    {
+        "x": 69,
+        "y": 73,
+        "distribution": 0.33
+    },
+    {
+        "x": 69,
+        "y": 74,
+        "distribution": 0.09
+    },
+    {
+        "x": 69,
+        "y": 75,
+        "distribution": 0.37
+    },
+    {
+        "x": 69,
+        "y": 76,
+        "distribution": 0.16
+    },
+    {
+        "x": 69,
+        "y": 77,
+        "distribution": 0.44
+    },
+    {
+        "x": 69,
+        "y": 78,
+        "distribution": 0.23
+    },
+    {
+        "x": 69,
+        "y": 79,
+        "distribution": 0.31
+    },
+    {
+        "x": 69,
+        "y": 80,
+        "distribution": 0.30
+    },
+    {
+        "x": 69,
+        "y": 81,
+        "distribution": 0.34
+    },
+    {
+        "x": 69,
+        "y": 82,
+        "distribution": 0.46
+    },
+    {
+        "x": 69,
+        "y": 83,
+        "distribution": 0.48
+    },
+    {
+        "x": 69,
+        "y": 84,
+        "distribution": 0.60
+    },
+    {
+        "x": 69,
+        "y": 85,
+        "distribution": 0.55
+    },
+    {
+        "x": 69,
+        "y": 86,
+        "distribution": 0.60
+    },
+    {
+        "x": 69,
+        "y": 87,
+        "distribution": 0.55
+    },
+    {
+        "x": 69,
+        "y": 88,
+        "distribution": 0.55
+    },
+    {
+        "x": 69,
+        "y": 89,
+        "distribution": 0.60
+    },
+    {
+        "x": 69,
+        "y": 90,
+        "distribution": 0.55
+    },
+    {
+        "x": 69,
+        "y": 91,
+        "distribution": 0.55
+    },
+    {
+        "x": 69,
+        "y": 92,
+        "distribution": 0.53
+    },
+    {
+        "x": 70,
+        "y": 71,
+        "distribution": 0.08
+    },
+    {
+        "x": 70,
+        "y": 72,
+        "distribution": 0.13
+    },
+    {
+        "x": 70,
+        "y": 73,
+        "distribution": 0.33
+    },
+    {
+        "x": 70,
+        "y": 74,
+        "distribution": 0.09
+    },
+    {
+        "x": 70,
+        "y": 75,
+        "distribution": 0.12
+    },
+    {
+        "x": 70,
+        "y": 76,
+        "distribution": 0.21
+    },
+    {
+        "x": 70,
+        "y": 77,
+        "distribution": 0.44
+    },
+    {
+        "x": 70,
+        "y": 78,
+        "distribution": 0.28
+    },
+    {
+        "x": 70,
+        "y": 79,
+        "distribution": 0.26
+    },
+    {
+        "x": 70,
+        "y": 80,
+        "distribution": 0.30
+    },
+    {
+        "x": 70,
+        "y": 81,
+        "distribution": 0.34
+    },
+    {
+        "x": 70,
+        "y": 82,
+        "distribution": 0.65
+    },
+    {
+        "x": 70,
+        "y": 83,
+        "distribution": 0.53
+    },
+    {
+        "x": 70,
+        "y": 84,
+        "distribution": 0.48
+    },
+    {
+        "x": 70,
+        "y": 85,
+        "distribution": 0.48
+    },
+    {
+        "x": 70,
+        "y": 86,
+        "distribution": 0.73
+    },
+    {
+        "x": 70,
+        "y": 87,
+        "distribution": 0.53
+    },
+    {
+        "x": 70,
+        "y": 88,
+        "distribution": 0.48
+    },
+    {
+        "x": 70,
+        "y": 89,
+        "distribution": 0.48
+    },
+    {
+        "x": 70,
+        "y": 90,
+        "distribution": 0.48
+    },
+    {
+        "x": 70,
+        "y": 91,
+        "distribution": 0.48
+    },
+    {
+        "x": 70,
+        "y": 92,
+        "distribution": 0.48
+    },
+    {
+        "x": 71,
+        "y": 71,
+        "distribution": 0.33
+    },
+    {
+        "x": 71,
+        "y": 72,
+        "distribution": 0.13
+    },
+    {
+        "x": 71,
+        "y": 73,
+        "distribution": 0.13
+    },
+    {
+        "x": 71,
+        "y": 74,
+        "distribution": 0.09
+    },
+    {
+        "x": 71,
+        "y": 75,
+        "distribution": 0.12
+    },
+    {
+        "x": 71,
+        "y": 76,
+        "distribution": 0.16
+    },
+    {
+        "x": 71,
+        "y": 77,
+        "distribution": 0.19
+    },
+    {
+        "x": 71,
+        "y": 78,
+        "distribution": 0.28
+    },
+    {
+        "x": 71,
+        "y": 79,
+        "distribution": 0.31
+    },
+    {
+        "x": 71,
+        "y": 80,
+        "distribution": 0.30
+    },
+    {
+        "x": 71,
+        "y": 81,
+        "distribution": 0.34
+    },
+    {
+        "x": 71,
+        "y": 82,
+        "distribution": 0.41
+    },
+    {
+        "x": 71,
+        "y": 83,
+        "distribution": 0.46
+    },
+    {
+        "x": 71,
+        "y": 84,
+        "distribution": 0.41
+    },
+    {
+        "x": 71,
+        "y": 85,
+        "distribution": 0.46
+    },
+    {
+        "x": 71,
+        "y": 86,
+        "distribution": 0.41
+    },
+    {
+        "x": 71,
+        "y": 87,
+        "distribution": 0.65
+    },
+    {
+        "x": 71,
+        "y": 88,
+        "distribution": 0.41
+    },
+    {
+        "x": 71,
+        "y": 89,
+        "distribution": 0.41
+    },
+    {
+        "x": 71,
+        "y": 90,
+        "distribution": 0.46
+    },
+    {
+        "x": 71,
+        "y": 91,
+        "distribution": 0.41
+    },
+    {
+        "x": 71,
+        "y": 92,
+        "distribution": 0.41
+    },
+    {
+        "x": 72,
+        "y": 71,
+        "distribution": 0.13
+    },
+    {
+        "x": 72,
+        "y": 72,
+        "distribution": 0.33
+    },
+    {
+        "x": 72,
+        "y": 73,
+        "distribution": 0.09
+    },
+    {
+        "x": 72,
+        "y": 74,
+        "distribution": 0.09
+    },
+    {
+        "x": 72,
+        "y": 75,
+        "distribution": 0.12
+    },
+    {
+        "x": 72,
+        "y": 76,
+        "distribution": 0.16
+    },
+    {
+        "x": 72,
+        "y": 77,
+        "distribution": 0.24
+    },
+    {
+        "x": 72,
+        "y": 78,
+        "distribution": 0.28
+    },
+    {
+        "x": 72,
+        "y": 79,
+        "distribution": 0.26
+    },
+    {
+        "x": 72,
+        "y": 80,
+        "distribution": 0.30
+    },
+    {
+        "x": 72,
+        "y": 81,
+        "distribution": 0.39
+    },
+    {
+        "x": 72,
+        "y": 82,
+        "distribution": 0.34
+    },
+    {
+        "x": 72,
+        "y": 83,
+        "distribution": 0.34
+    },
+    {
+        "x": 72,
+        "y": 84,
+        "distribution": 0.34
+    },
+    {
+        "x": 72,
+        "y": 85,
+        "distribution": 0.34
+    },
+    {
+        "x": 72,
+        "y": 86,
+        "distribution": 0.34
+    },
+    {
+        "x": 72,
+        "y": 87,
+        "distribution": 0.34
+    },
+    {
+        "x": 72,
+        "y": 88,
+        "distribution": 0.58
+    },
+    {
+        "x": 72,
+        "y": 89,
+        "distribution": 0.34
+    },
+    {
+        "x": 72,
+        "y": 90,
+        "distribution": 0.39
+    },
+    {
+        "x": 72,
+        "y": 91,
+        "distribution": 0.34
+    },
+    {
+        "x": 72,
+        "y": 92,
+        "distribution": 0.39
+    },
+    {
+        "x": 73,
+        "y": 71,
+        "distribution": 0.08
+    },
+    {
+        "x": 73,
+        "y": 72,
+        "distribution": 0.13
+    },
+    {
+        "x": 73,
+        "y": 73,
+        "distribution": 0.09
+    },
+    {
+        "x": 73,
+        "y": 74,
+        "distribution": 0.13
+    },
+    {
+        "x": 73,
+        "y": 75,
+        "distribution": 0.12
+    },
+    {
+        "x": 73,
+        "y": 76,
+        "distribution": 0.21
+    },
+    {
+        "x": 73,
+        "y": 77,
+        "distribution": 0.19
+    },
+    {
+        "x": 73,
+        "y": 78,
+        "distribution": 0.23
+    },
+    {
+        "x": 73,
+        "y": 79,
+        "distribution": 0.26
+    },
+    {
+        "x": 73,
+        "y": 80,
+        "distribution": 0.30
+    },
+    {
+        "x": 73,
+        "y": 81,
+        "distribution": 0.30
+    },
+    {
+        "x": 73,
+        "y": 82,
+        "distribution": 0.55
+    },
+    {
+        "x": 73,
+        "y": 83,
+        "distribution": 0.30
+    },
+    {
+        "x": 73,
+        "y": 84,
+        "distribution": 0.30
+    },
+    {
+        "x": 73,
+        "y": 85,
+        "distribution": 0.30
+    },
+    {
+        "x": 73,
+        "y": 86,
+        "distribution": 0.30
+    },
+    {
+        "x": 73,
+        "y": 87,
+        "distribution": 0.35
+    },
+    {
+        "x": 73,
+        "y": 88,
+        "distribution": 0.35
+    },
+    {
+        "x": 73,
+        "y": 89,
+        "distribution": 0.30
+    },
+    {
+        "x": 73,
+        "y": 90,
+        "distribution": 0.30
+    },
+    {
+        "x": 73,
+        "y": 91,
+        "distribution": 0.35
+    },
+    {
+        "x": 73,
+        "y": 92,
+        "distribution": 0.30
+    },
+    {
+        "x": 74,
+        "y": 71,
+        "distribution": 0.08
+    },
+    {
+        "x": 74,
+        "y": 72,
+        "distribution": 0.08
+    },
+    {
+        "x": 74,
+        "y": 73,
+        "distribution": 0.08
+    },
+    {
+        "x": 74,
+        "y": 74,
+        "distribution": 0.08
+    },
+    {
+        "x": 74,
+        "y": 75,
+        "distribution": 0.12
+    },
+    {
+        "x": 74,
+        "y": 76,
+        "distribution": 0.16
+    },
+    {
+        "x": 74,
+        "y": 77,
+        "distribution": 0.44
+    },
+    {
+        "x": 74,
+        "y": 78,
+        "distribution": 0.28
+    },
+    {
+        "x": 74,
+        "y": 79,
+        "distribution": 0.26
+    },
+    {
+        "x": 74,
+        "y": 80,
+        "distribution": 0.26
+    },
+    {
+        "x": 74,
+        "y": 81,
+        "distribution": 0.26
+    },
+    {
+        "x": 74,
+        "y": 82,
+        "distribution": 0.26
+    },
+    {
+        "x": 74,
+        "y": 83,
+        "distribution": 0.26
+    },
+    {
+        "x": 74,
+        "y": 84,
+        "distribution": 0.26
+    },
+    {
+        "x": 74,
+        "y": 85,
+        "distribution": 0.26
+    },
+    {
+        "x": 74,
+        "y": 86,
+        "distribution": 0.26
+    },
+    {
+        "x": 74,
+        "y": 87,
+        "distribution": 0.26
+    },
+    {
+        "x": 74,
+        "y": 88,
+        "distribution": 0.26
+    },
+    {
+        "x": 74,
+        "y": 89,
+        "distribution": 0.31
+    },
+    {
+        "x": 74,
+        "y": 90,
+        "distribution": 0.26
+    },
+    {
+        "x": 74,
+        "y": 91,
+        "distribution": 0.26
+    },
+    {
+        "x": 74,
+        "y": 92,
+        "distribution": 0.31
+    }
+]
