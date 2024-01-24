@@ -13,6 +13,7 @@
     "my-ts-script": "tsx scripts/cabins/importKV.ts"
   },
   "dependencies": {
+    "@nivo/bar": "^0.84.0",
     "@nivo/line": "^0.84.0",
     "@nivo/pie": "^0.84.0",
     "@radix-ui/react-checkbox": "^1.0.4",

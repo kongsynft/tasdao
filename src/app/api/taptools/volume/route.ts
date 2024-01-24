@@ -1,16 +1,22 @@
 import {
-  HolderDistributions,
+  VolumeTrended,
+  VolumeTransformedData,
   apesPolicyId,
   cabinsPolicyId,
   cotasPolicyId,
 } from "@/lib/constants";
 import { cookies } from "next/headers";
 
-async function fetchHolderDistributions(
-  policyId: string,
-): Promise<HolderDistributions> {
+type VolumeResponse = {
+  price: number;
+  sales: number;
+  time: number;
+  volume: number;
+};
+
+async function fetchVolume(policyId: string): Promise<VolumeTrended[]> {
   const response = await fetch(
-    `https://openapi.taptools.io/api/v1/nft/collection/holders/distribution?policy=${policyId}`,
+    `https://openapi.taptools.io/api/v1/nft/collection/volume/trended?policy=${policyId}&interval=1d&numIntervals=180`,
     {
       headers: {
         "x-api-key": process.env.TAPTOOLS_API_KEY as string,
@@ -34,8 +40,13 @@ async function fetchHolderDistributions(
     );
   }
 
-  const data: HolderDistributions = await response.json();
-  return data;
+  const data: VolumeResponse[] = await response.json();
+  return data.map((item) => ({
+    date: new Date(item.time * 1000).toISOString(),
+    price: item.price,
+    sales: item.sales,
+    volume: item.volume,
+  }));
 }
 
 export async function GET(request: Request) {
@@ -46,20 +57,20 @@ export async function GET(request: Request) {
   ) {
     throw Error("Missing or invalid Taptools API key");
   }
-
-  const apeDistributions: HolderDistributions =
-    await fetchHolderDistributions(apesPolicyId);
-  const cabinDistributions: HolderDistributions =
-    await fetchHolderDistributions(cabinsPolicyId);
-  const cotasDistributions: HolderDistributions =
-    await fetchHolderDistributions(cotasPolicyId);
+  const apeVolume: VolumeTrended[] = await fetchVolume(apesPolicyId);
+  const cabinVolume: VolumeTrended[] = await fetchVolume(cabinsPolicyId);
+  const cotasVolume: VolumeTrended[] = await fetchVolume(cotasPolicyId);
+  const volumeData: VolumeTransformedData[] = apeVolume.map((item, index) => ({
+    date: item.date,
+    apes: item.volume,
+    cabins: cabinVolume[index].volume,
+    cotas: cotasVolume[index].volume,
+  }));
 
   try {
     return new Response(
       JSON.stringify({
-        apes: apeDistributions,
-        cabins: cabinDistributions,
-        cotas: cotasDistributions,
+        volumeData: volumeData,
       }),
       {
         status: 200,

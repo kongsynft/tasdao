@@ -25,6 +25,7 @@ async function fetchTopHolders(policyId: string): Promise<TopHolderWithRank[]> {
     console.error(
       "API call failed for policy ID " + policyId + " with response:",
       {
+        endpoint: response.url,
         status: response.status,
         statusText: response.statusText,
         errorBody: errorText,

@@ -1,8 +1,13 @@
 "use client";
 
+import { Histogram } from "@/components/stats/collection-insights/Histogram";
 import { PieChart } from "@/components/stats/collection-insights/PieChart";
 import { TableData } from "@/components/stats/collection-insights/TableData";
-import { HolderDistributions, TopHolderWithRank } from "@/lib/constants";
+import {
+  HolderDistributions,
+  TopHolderWithRank,
+  VolumeTransformedData,
+} from "@/lib/constants";
 import { useEffect, useState } from "react";
 
 export default function Page() {
@@ -12,10 +17,10 @@ export default function Page() {
     useState<HolderDistributions>();
   const [cotasDistributions, setCotasDistributions] =
     useState<HolderDistributions>();
-
   const [apeTopHolders, setApeTopHolders] = useState<TopHolderWithRank[]>();
   const [cabinTopHolders, setCabinTopHolders] = useState<TopHolderWithRank[]>();
   const [cotasTopHolders, setCotasTopHolders] = useState<TopHolderWithRank[]>();
+  const [volumeData, setVolumeData] = useState<VolumeTransformedData[]>();
 
   async function getHolderDistributionsData() {
     const response = await fetch("/api/taptools/holder-distributions", {
@@ -47,14 +52,31 @@ export default function Page() {
     setCotasTopHolders(cotas);
   }
 
+  async function getVolumeData() {
+    const response = await fetch("/api/taptools/volume", {
+      next: {
+        revalidate: 3600,
+      },
+    });
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const { volumeData } = await response.json();
+    setVolumeData(volumeData);
+  }
+
   useEffect(() => {
     getHolderDistributionsData();
     getTopHoldersData();
+    getVolumeData();
   }, []);
 
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="max-w-7xl w-full md:p-2">
+        <div className="md:grid md:mb-4 text-center">
+          {volumeData && <Histogram data={volumeData} />}
+        </div>
         <div className="md:grid md:grid-cols-3 gap-4 md:mb-4">
           {apeDistributions && (
             <PieChart data={apeDistributions} title="Ape distribution" />
