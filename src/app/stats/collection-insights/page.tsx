@@ -1,7 +1,8 @@
 "use client";
 
 import { PieChart } from "@/components/stats/collection-insights/PieChart";
-import { HolderDistributions } from "@/lib/constants";
+import { TableData } from "@/components/stats/collection-insights/TableData";
+import { HolderDistributions, TopHolderWithRank } from "@/lib/constants";
 import { useEffect, useState } from "react";
 
 export default function Page() {
@@ -12,7 +13,11 @@ export default function Page() {
   const [cotasDistributions, setCotasDistributions] =
     useState<HolderDistributions>();
 
-  async function getPieChartData() {
+  const [apeTopHolders, setApeTopHolders] = useState<TopHolderWithRank[]>();
+  const [cabinTopHolders, setCabinTopHolders] = useState<TopHolderWithRank[]>();
+  const [cotasTopHolders, setCotasTopHolders] = useState<TopHolderWithRank[]>();
+
+  async function getHolderDistributionsData() {
     const response = await fetch("/api/taptools/holder-distributions", {
       next: {
         revalidate: 3600,
@@ -27,8 +32,24 @@ export default function Page() {
     setCotasDistributions(cotas);
   }
 
+  async function getTopHoldersData() {
+    const response = await fetch("/api/taptools/top-holders", {
+      next: {
+        revalidate: 3600,
+      },
+    });
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const { apes, cabins, cotas } = await response.json();
+    setApeTopHolders(apes);
+    setCabinTopHolders(cabins);
+    setCotasTopHolders(cotas);
+  }
+
   useEffect(() => {
-    getPieChartData();
+    getHolderDistributionsData();
+    getTopHoldersData();
   }, []);
 
   return (
@@ -43,6 +64,17 @@ export default function Page() {
           )}
           {cotasDistributions && (
             <PieChart data={cotasDistributions} title="COTAS distribution" />
+          )}
+        </div>
+        <div className="md:grid md:grid-cols-3 gap-4 md:mb-4">
+          {apeTopHolders && (
+            <TableData data={apeTopHolders} title="The Infamous TAS60" />
+          )}
+          {cabinTopHolders && (
+            <TableData data={cabinTopHolders} title="Cabin top holders" />
+          )}
+          {cotasTopHolders && (
+            <TableData data={cotasTopHolders} title="COTAS top holders" />
           )}
         </div>
       </div>

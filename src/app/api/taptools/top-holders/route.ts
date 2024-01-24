@@ -1,16 +1,18 @@
 import {
-  HolderDistributions,
+  TopHolder,
+  TopHolderWithRank,
   apesPolicyId,
   cabinsPolicyId,
   cotasPolicyId,
 } from "@/lib/constants";
 import { cookies } from "next/headers";
 
-async function fetchHolderDistributions(
-  policyId: string,
-): Promise<HolderDistributions> {
+async function fetchTopHolders(policyId: string): Promise<TopHolderWithRank[]> {
+  const excludeAddress =
+    "addr1vx6h45xms7c62ww5daxwwl4mtm9p7mnx0u74w5x5pmwpcnss67sft";
+
   const response = await fetch(
-    `https://openapi.taptools.io/api/v1/nft/collection/holders/distribution?policy=${policyId}`,
+    `https://openapi.taptools.io/api/v1/nft/collection/holders/top?policy=${policyId}&perPage=100&page=1&excludeExchanges=1`,
     {
       headers: {
         "x-api-key": process.env.TAPTOOLS_API_KEY as string,
@@ -33,8 +35,13 @@ async function fetchHolderDistributions(
     );
   }
 
-  const data: HolderDistributions = await response.json();
-  return data;
+  let data: TopHolder[] = await response.json();
+  return data
+    .filter((holder) => holder.address !== excludeAddress)
+    .map((holder, index) => ({
+      ...holder,
+      rank: index + 1, // Add rank starting from 1
+    }));
 }
 
 export async function GET(request: Request) {
@@ -45,20 +52,19 @@ export async function GET(request: Request) {
   ) {
     throw Error("Missing or invalid Taptools API key");
   }
-
-  const apeDistributions: HolderDistributions =
-    await fetchHolderDistributions(apesPolicyId);
-  const cabinDistributions: HolderDistributions =
-    await fetchHolderDistributions(cabinsPolicyId);
-  const cotasDistributions: HolderDistributions =
-    await fetchHolderDistributions(cotasPolicyId);
+  const apeTopHolders: TopHolderWithRank[] =
+    await fetchTopHolders(apesPolicyId);
+  const cabinTopHolders: TopHolderWithRank[] =
+    await fetchTopHolders(cabinsPolicyId);
+  const cotasTopHolders: TopHolderWithRank[] =
+    await fetchTopHolders(cotasPolicyId);
 
   try {
     return new Response(
       JSON.stringify({
-        apes: apeDistributions,
-        cabins: cabinDistributions,
-        cotas: cotasDistributions,
+        apes: apeTopHolders,
+        cabins: cabinTopHolders,
+        cotas: cotasTopHolders,
       }),
       {
         status: 200,

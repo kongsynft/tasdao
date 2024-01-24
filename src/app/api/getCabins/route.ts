@@ -5,8 +5,7 @@ import {
   CabinFromJPGStore,
   CabinFromKV,
 } from "@/lib/constants";
-
-export const revalidate = 0;
+import { cookies } from "next/headers";
 
 async function getCabinsFromJPGStore(): Promise<CabinFromJPGStore[]> {
   let cabinListings: CabinFromJPGStore[] = [];
@@ -55,6 +54,7 @@ async function getCabinsFromKV(): Promise<CabinFromKV[]> {
 }
 
 export async function GET() {
+  cookies();
   try {
     const cabins = await getCabinsFromKV();
     const listings = await getCabinsFromJPGStore();
