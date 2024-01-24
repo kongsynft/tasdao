@@ -31,6 +31,7 @@ async function fetchNFTPriceData(policyId: string): Promise<DatePrice[]> {
     console.error(
       "API call failed for policy ID " + policyId + " with response:",
       {
+        endpoint: response.url,
         status: response.status,
         statusText: response.statusText,
         errorBody: errorText,
@@ -61,6 +62,7 @@ async function fetchTokenPriceData(unit: string): Promise<DatePrice[]> {
   if (!response.ok) {
     const errorText = await response.text();
     console.error("API call failed for policy ID " + unit + " with response:", {
+      endpoint: response.url,
       status: response.status,
       statusText: response.statusText,
       errorBody: errorText,

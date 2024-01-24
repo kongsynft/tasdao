@@ -139,6 +139,20 @@ export type TopHolderWithRank = TopHolder & {
   rank: number;
 };
 
+export type VolumeTrended = {
+  date: string;
+  price: number;
+  sales: number;
+  volume: number;
+};
+
+export type VolumeTransformedData = {
+  date: string;
+  apes: number;
+  cabins: number;
+  cotas: number;
+};
+
 export const apesPolicyId =
   "dac355946b4317530d9ec0cb142c63a4b624610786c2a32137d78e25";
 export const cabinsPolicyId =
