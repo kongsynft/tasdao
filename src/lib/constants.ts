@@ -153,6 +153,13 @@ export type VolumeTransformedData = {
   cotas: number;
 };
 
+export type ListingsDepthResponse = {
+  avg: number;
+  count: number;
+  price: number;
+  total: number;
+};
+
 export const apesPolicyId =
   "dac355946b4317530d9ec0cb142c63a4b624610786c2a32137d78e25";
 export const cabinsPolicyId =
