@@ -20,7 +20,7 @@ const CustomTooltip = ({ point }: { point: Point }) => {
   };
 
   return (
-    <div className="p-2 bg-secondary text-muted-foreground text-sm rounded-md shadow-lg">
+    <div className="px-2 py-1 bg-secondary text-foreground text-sm rounded-md shadow-lg">
       <div className="flex justify-between items-center">
         <span>Price:</span>
         <span className="flex items-center ml-2">
@@ -129,7 +129,7 @@ export function ListingsDepthLineChart({
               tickPadding: 5,
               tickRotation: 0,
               tickValues: 5,
-              legend: "Number of listings",
+              legend: "Listings count",
               legendOffset: -35,
               legendPosition: "middle",
             }}

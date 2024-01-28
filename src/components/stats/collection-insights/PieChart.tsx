@@ -9,7 +9,7 @@ type PieChartProps = {
 };
 
 const CustomTooltip = ({ datum }: { datum: Datum }) => (
-  <div className="flex items-center text-muted-foreground bg-secondary">
+  <div className="flex px-2 py-1 items-center rounded-lg text-foreground bg-secondary">
     {datum.label} NFT&apos;s: {datum.value} wallets
   </div>
 );
