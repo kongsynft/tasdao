@@ -1,5 +1,4 @@
 import {
-  HoldersTransformedData,
   HoldersTrended,
   apesPolicyId,
   cabinsPolicyId,
