@@ -63,7 +63,7 @@ const CustomTooltip = ({
   const { apes, cabins, cotas } = data;
 
   return (
-    <div className="p-2 bg-secondary text-muted-foreground text-sm rounded-md shadow-lg">
+    <div className="px-2 py-1 bg-secondary text-foreground text-sm rounded-md shadow-lg">
       <div className="font-bold mb-1">{formattedDate}</div>
       <div>
         Cotas: {formatVolume(cotas)}{" "}
