@@ -1,14 +1,35 @@
 "use client";
-
 import { ModeToggle } from "@/components/layout/ModeToggle";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
 import { Icons } from "@/lib/icons";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
+import { DaoTreasury } from "@/lib/constants";
 
 export function SiteHeader() {
+  const [daoValueADA, setDaoValueADA] = useState<string>();
+  const [daoValueUSD, setDaoValueUSD] = useState<string>();
   const pathname = usePathname();
+
+  async function getDaoPortfolioData() {
+    const response = await fetch("/api/taptools/portfolio/positions", {
+      next: {
+        revalidate: 3600,
+      },
+    });
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const { daoTreasuryADA, daoTreasuryUSD } = await response.json();
+    setDaoValueADA(daoTreasuryADA);
+    setDaoValueUSD(daoTreasuryUSD);
+  }
+
+  useEffect(() => {
+    getDaoPortfolioData();
+  }, []);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-b/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -26,6 +47,18 @@ export function SiteHeader() {
           </div>
           <span className="hidden font-bold sm:inline-block">tasdao</span>
         </Link>
+        {daoValueADA && (
+          <Link
+            href="https://pool.pm/$theapesociety"
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center p-1 mr-6 text-foreground/60 hover:text-foreground text-sm"
+          >
+            Treasury:{" "}
+            <Icons.cardano className="ml-1 h-[13px] w-[13px] fill-current" />{" "}
+            {daoValueADA} (${daoValueUSD})
+          </Link>
+        )}
         <nav className="flex items-center gap-6 text-sm">
           <Link
             href="/heatmap"
@@ -42,7 +75,9 @@ export function SiteHeader() {
             href="/stats/market-trends"
             className={cn(
               "transition-colors hover:text-foreground/80",
-              pathname === "/stats" ? "text-foreground" : "text-foreground/60",
+              pathname.startsWith("/stats")
+                ? "text-foreground"
+                : "text-foreground/60",
             )}
           >
             Stats

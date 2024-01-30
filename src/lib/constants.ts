@@ -170,6 +170,11 @@ export type ListingsTrended = {
   listings: number;
 };
 
+export type DaoTreasury = {
+  daoTreasuryADA: string;
+  daoTreasuryUSD: string;
+};
+
 export const apesPolicyId =
   "dac355946b4317530d9ec0cb142c63a4b624610786c2a32137d78e25";
 export const cabinsPolicyId =
@@ -178,3 +183,6 @@ export const cotasPolicyId =
   "fca746f58adf9f3da13b7227e5e2c6052f376447473f4d49f8004195";
 export const societyUnit =
   "25f0fc240e91bd95dcdaebd2ba7713fc5168ac77234a3d79449fc20c534f4349455459";
+
+export const daoStakeKey =
+  "stake17xxu0kuhd00syak6msqysczv308ce44w6q7glhq9z9hajwcgmdpha";

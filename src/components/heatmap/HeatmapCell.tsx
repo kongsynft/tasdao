@@ -51,12 +51,11 @@ const HeatmapCell = ({
       !showLandmark || landmarkDistricts.has(cell.district);
     const shouldDisplayForSale = showForSale ? cell.priceAda !== null : true;
     const isEmptySpot = cell.id.startsWith("empty");
-    const isInPriceRange =
-      minPrice && maxPrice
-        ? cell.priceAda !== null &&
-          cell.priceAda >= minPrice &&
-          cell.priceAda <= maxPrice
-        : true;
+    const isInPriceRange = maxPrice
+      ? cell.priceAda !== null &&
+        cell.priceAda >= (minPrice ?? 0) &&
+        cell.priceAda <= maxPrice
+      : true;
 
     return (
       isEmptySpot ||
