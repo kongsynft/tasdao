@@ -9,8 +9,8 @@ import { useEffect, useState } from "react";
 import { DaoTreasury } from "@/lib/constants";
 
 export function SiteHeader() {
-  const [daoValueADA, setDaoValueADA] = useState<string>();
-  const [daoValueUSD, setDaoValueUSD] = useState<string>();
+  const [daoValueADA, setDaoValueADA] = useState<string>("0.0");
+  const [daoValueUSD, setDaoValueUSD] = useState<string>("0.0");
   const pathname = usePathname();
 
   async function getDaoPortfolioData() {
@@ -47,18 +47,16 @@ export function SiteHeader() {
           </div>
           <span className="hidden font-bold sm:inline-block">tasdao</span>
         </Link>
-        {daoValueADA && (
-          <Link
-            href="https://pool.pm/$theapesociety"
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center p-1 mr-6 text-foreground/60 hover:text-foreground text-sm"
-          >
-            Treasury:{" "}
-            <Icons.cardano className="ml-1 h-[13px] w-[13px] fill-current" />{" "}
-            {daoValueADA} (${daoValueUSD})
-          </Link>
-        )}
+        <Link
+          href="https://pool.pm/$theapesociety"
+          target="_blank"
+          rel="noreferrer"
+          className="hidden md:flex items-center p-1 mr-6 text-foreground/60 hover:text-foreground text-sm"
+        >
+          Treasury:{" "}
+          <Icons.cardano className="ml-1 h-[13px] w-[13px] fill-current" />{" "}
+          {daoValueADA} (${daoValueUSD})
+        </Link>
         <nav className="flex items-center gap-6 text-sm">
           <Link
             href="/heatmap"

@@ -17,6 +17,8 @@ import {
 } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { Icons } from "@/lib/icons";
+import JpgIcon from "@/images/JpgDarkMode.png";
+import Link from "next/link";
 
 interface CabinInfobarProps {
   cell: CabinDetails;
@@ -109,13 +111,23 @@ const CabinInfobar = ({
         </p>
         <p className="flex items-center text-sm font-medium leading-tight">
           Price:{" "}
-          {cell.priceAda !== null ? (
+          {cell.priceAda !== null && cell.assetUrl !== null ? (
             <>
               {cell.priceAda.toString()}
               <Icons.cardano className="h-[14px] w-[14px] fill-current" />
             </>
           ) : (
             "Not for sale"
+          )}
+          {cell.priceAda !== null && cell.assetUrl !== null && (
+            <Link
+              href={cell.assetUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="ml-2"
+            >
+              <Image src={JpgIcon} alt={"jpg-icon"} className="h-4 w-fit" />
+            </Link>
           )}
         </p>
         <p className="text-sm font-medium leading-tight">
