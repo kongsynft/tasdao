@@ -24,6 +24,7 @@ interface CabinInfobarProps {
   ratings: Set<string>;
   showForSale: boolean;
   showLandmark: boolean;
+  showNonLandmarks: boolean;
   isCabinSelected: boolean;
   minPrice: number | null;
   maxPrice: number | null;
@@ -33,6 +34,7 @@ interface CabinInfobarProps {
   deselectAllRatings: () => void;
   toggleForSale: () => void;
   toggleLandmarkFilter: () => void;
+  toggleNonLandmarksFilter: () => void;
   setMinPrice: (price: number | null) => void;
   setMaxPrice: (price: number | null) => void;
 }
@@ -43,6 +45,7 @@ const CabinInfobar = ({
   ratings,
   showForSale,
   showLandmark,
+  showNonLandmarks,
   isCabinSelected,
   minPrice,
   maxPrice,
@@ -52,6 +55,7 @@ const CabinInfobar = ({
   deselectAllRatings,
   toggleForSale,
   toggleLandmarkFilter,
+  toggleNonLandmarksFilter,
   setMinPrice,
   setMaxPrice,
 }: CabinInfobarProps) => {
@@ -133,21 +137,18 @@ const CabinInfobar = ({
           </div>
         </div>
         <p className="text-lg font-medium text-left">Sizes</p>
-        {sizeOptions.map((size) => (
-          <div key={size} className="flex items-center gap-1">
-            <Checkbox
-              id={size}
-              checked={sizes.has(size)}
-              onClick={() => toggleSizeFilter(size)}
-            />
-            <label
-              htmlFor={size}
-              className="text-sm m-[0.1rem] leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70e"
-            >
-              {size}
-            </label>
-          </div>
-        ))}
+        <div className="flex items-center gap-1">
+          {sizeOptions.map((size) => (
+            <>
+              <Checkbox
+                id={size}
+                checked={sizes.has(size)}
+                onClick={() => toggleSizeFilter(size)}
+              />
+              <Label htmlFor={size}>{size}</Label>
+            </>
+          ))}
+        </div>
         <div className="text-lg font-medium text-left">Districts</div>
         <div className="flex items-center space-x-2">
           <Switch
@@ -156,6 +157,14 @@ const CabinInfobar = ({
             onClick={toggleLandmarkFilter}
           />
           <Label htmlFor="landmark">Landmark Districts</Label>
+        </div>
+        <div className="flex items-center space-x-2">
+          <Switch
+            id="non-landmarks"
+            checked={showNonLandmarks}
+            onClick={toggleNonLandmarksFilter}
+          />
+          <Label htmlFor="non-landmarks">Non Landmark Districts</Label>
         </div>
         <div className="text-lg font-medium text-left">Ratings</div>
         <div className="grid grid-cols-6 gap-1">

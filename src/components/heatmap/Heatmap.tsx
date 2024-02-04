@@ -11,13 +11,7 @@ import {
   ratingOptions,
 } from "@/lib/constants";
 import HeatmapControls from "@/components/heatmap/HeatmapControls";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 
 const Heatmap: React.FC = () => {
   const [cabins, setCabins] = useState<CabinDetails[]>([]);
@@ -27,6 +21,7 @@ const Heatmap: React.FC = () => {
     new Set(sizeOptions),
   );
   const [showLandmark, setShowLandmark] = useState<boolean>(false);
+  const [showNonLandmarks, setShowNonLandmarks] = useState<boolean>(false);
   const [selectedRatings, setSelectedRatings] = useState<Set<string>>(
     new Set(ratingOptions),
   );
@@ -103,6 +98,7 @@ const Heatmap: React.FC = () => {
           ratings={selectedRatings}
           showForSale={showForSale}
           showLandmark={showLandmark}
+          showNonLandmarks={showNonLandmarks}
           isCabinSelected={isCabinSelected}
           minPrice={minPrice}
           maxPrice={maxPrice}
@@ -112,6 +108,9 @@ const Heatmap: React.FC = () => {
           deselectAllRatings={deselectAllRatings}
           toggleForSale={() => setForSale(!showForSale)}
           toggleLandmarkFilter={() => setShowLandmark(!showLandmark)}
+          toggleNonLandmarksFilter={() =>
+            setShowNonLandmarks(!showNonLandmarks)
+          }
           setMinPrice={setMinPrice}
           setMaxPrice={setMaxPrice}
         />
@@ -134,6 +133,7 @@ const Heatmap: React.FC = () => {
                       cell={cell}
                       showForSale={showForSale}
                       showLandmark={showLandmark}
+                      showNonLandmarks={showNonLandmarks}
                       isSelected={selectedCabin?.id === cell.id}
                       selectedSizes={selectedSizes}
                       selectedRatings={selectedRatings}
