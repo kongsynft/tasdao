@@ -8,6 +8,7 @@ interface HeatmapCellProps {
   cell: CabinDetails;
   showForSale: boolean;
   showLandmark: boolean;
+  showNonLandmarks: boolean;
   isSelected: boolean;
   selectedSizes: Set<string>;
   selectedRatings: Set<string>;
@@ -36,6 +37,7 @@ const HeatmapCell = ({
   cell,
   showForSale,
   showLandmark,
+  showNonLandmarks,
   isSelected,
   selectedSizes,
   selectedRatings,
@@ -49,6 +51,8 @@ const HeatmapCell = ({
     const isRatingSelected = selectedRatings.has(cell.rating);
     const isLandmarkSelected =
       !showLandmark || landmarkDistricts.has(cell.district);
+    const isNonLandmarksSelected =
+      !showNonLandmarks || !landmarkDistricts.has(cell.district);
     const shouldDisplayForSale = showForSale ? cell.priceAda !== null : true;
     const isEmptySpot = cell.id.startsWith("empty");
     const isInPriceRange = maxPrice
@@ -63,6 +67,7 @@ const HeatmapCell = ({
         isRatingSelected &&
         shouldDisplayForSale &&
         isLandmarkSelected &&
+        isNonLandmarksSelected &&
         isInPriceRange)
     );
   };
