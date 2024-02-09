@@ -39,7 +39,7 @@ type AddressAssetsResponse = {
 };
 
 function isValidStakeKey(stakeKey: string): boolean {
-  const regex = /^stake1[0-9a-z]{54}$/;
+  const regex = /^stake1[0-9a-z]{53}$/;
   return regex.test(stakeKey);
 }
 
@@ -131,7 +131,6 @@ async function fetchAddressAssets(
 export async function GET(request: NextRequest) {
   cookies();
   const stakeKey = request.nextUrl.searchParams.get("stakeKey");
-
   if (!stakeKey || !isValidStakeKey(stakeKey)) {
     return new Response(
       JSON.stringify({ error: "Invalid or missing stake address" }),
