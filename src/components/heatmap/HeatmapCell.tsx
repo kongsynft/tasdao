@@ -91,8 +91,10 @@ const HeatmapCell = ({
         cell.rightBorder && "border-r-black dark:border-r-white",
         cell.colSpan,
         cell.rowSpan,
-        !cell.id.startsWith("empty") && "hover:border-primary hover:border-2",
-        isSelected && "border-primary-foreground border-2",
+        !cell.id.startsWith("empty") &&
+          "hover:border-primary hover:border-2 hover:dark:border-primary hover:dark:border-2",
+        isSelected &&
+          "border-primary-foreground border-2 dark:border-primary-foreground dark:border-2",
       )}
       onMouseEnter={() => onMouseEnter(cell)}
       onClick={() => onClick(cell)}
