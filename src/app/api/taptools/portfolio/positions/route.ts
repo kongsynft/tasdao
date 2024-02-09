@@ -80,7 +80,7 @@ async function fetchPortfolioPosition(
   if (!response.ok) {
     const errorText = await response.text();
     console.error(
-      "API call failed for policy ID " + stakeKey + " with response:",
+      "API call failed for stake key " + stakeKey + " with response:",
       {
         endpoint: response.url,
         status: response.status,

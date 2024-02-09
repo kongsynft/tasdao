@@ -4,7 +4,7 @@ import LevvyIcon from "@/images/SVG/Levvy.svg";
 import PlungeIcon from "@/images/SVG/Plunge.svg";
 import FactoryIcon from "@/images/SVG/Factory.svg";
 
-interface HeatmapCellProps {
+type HeatmapCellProps = {
   cell: CabinDetails;
   showForSale: boolean;
   showLandmark: boolean;
@@ -14,9 +14,10 @@ interface HeatmapCellProps {
   selectedRatings: Set<string>;
   minPrice: number | null;
   maxPrice: number | null;
+  filteredCabinIds: Set<string>;
   onMouseEnter: (cell: CabinDetails) => void;
   onClick: (cell: CabinDetails) => void;
-}
+};
 
 const renderDistrictIcon = (cell: CabinDetails) => {
   if (cell.id.startsWith("empty")) {
@@ -43,6 +44,7 @@ const HeatmapCell = ({
   selectedRatings,
   minPrice,
   maxPrice,
+  filteredCabinIds,
   onMouseEnter,
   onClick,
 }: HeatmapCellProps) => {
@@ -60,6 +62,8 @@ const HeatmapCell = ({
         cell.priceAda >= (minPrice ?? 0) &&
         cell.priceAda <= maxPrice
       : true;
+    const isFilteredThroughSearch =
+      filteredCabinIds.size > 0 ? filteredCabinIds.has(cell.id) : true;
 
     return (
       isEmptySpot ||
@@ -68,7 +72,8 @@ const HeatmapCell = ({
         shouldDisplayForSale &&
         isLandmarkSelected &&
         isNonLandmarksSelected &&
-        isInPriceRange)
+        isInPriceRange &&
+        isFilteredThroughSearch)
     );
   };
 
