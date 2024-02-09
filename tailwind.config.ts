@@ -24,6 +24,7 @@ const config = {
       },
       borderColor: {
         'black-alpha-10': 'rgba(0, 0, 0, 0.1)',
+        'white-alpha-10': 'rgba(255, 255, 255, 0.1)',
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],

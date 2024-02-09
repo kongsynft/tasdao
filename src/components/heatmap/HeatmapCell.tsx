@@ -86,9 +86,9 @@ const HeatmapCell = ({
           ? "w-full h-full flex justify-center items-center"
           : "w-3 h-3",
         shouldDisplay ? cell.color : "bg-background",
-        "border border-black-alpha-10",
-        cell?.bottomBorder && "border-b-border",
-        cell?.rightBorder && "border-r-border",
+        "border border-black-alpha-10 dark:border-white-alpha-10",
+        cell.bottomBorder && "border-b-black dark:border-b-white",
+        cell.rightBorder && "border-r-black dark:border-r-white",
         cell.colSpan,
         cell.rowSpan,
         !cell.id.startsWith("empty") && "hover:border-primary hover:border-2",
