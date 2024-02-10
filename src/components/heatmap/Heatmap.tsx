@@ -97,7 +97,7 @@ const Heatmap: React.FC = () => {
       return;
     }
     const response = await fetch(
-      `/api/blockfrost/wallet/cabins?stakeKey=${searchKey}`,
+      `/api/blockfrost/wallet/cabins?input=${searchKey}`,
     );
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);

@@ -1,4 +1,4 @@
-import { cabinsPolicyId } from "@/lib/constants";
+import { cabinsPolicyId, handlePolicyId } from "@/lib/constants";
 import { cookies } from "next/headers";
 import { NextRequest } from "next/server";
 
@@ -38,9 +38,107 @@ type AddressAssetsResponse = {
   quantity: string;
 };
 
-function isValidStakeKey(stakeKey: string): boolean {
-  const regex = /^stake1[0-9a-z]{53}$/;
-  return regex.test(stakeKey);
+type AssetAddressesResponse = {
+  address: string;
+  quantity: string;
+};
+
+type WalletAddressResponse = {
+  address: string;
+  amount: Array<{
+    unit: string;
+    quantity: string;
+  }>;
+  stake_address: string;
+  type: string;
+  script: boolean;
+};
+
+function isValidInput(
+  input: string,
+): "stakeKey" | "walletAddress" | "handle" | "invalid" {
+  const stakeKeyRegex = /^stake1[0-9a-z]{53}$/;
+  const walletAddressRegex = /^addr1[0-9a-zA-Z]{98}$/;
+  const handleRegex = /^\$[0-9a-zA-Z]+$/;
+
+  if (stakeKeyRegex.test(input)) {
+    return "stakeKey";
+  } else if (walletAddressRegex.test(input)) {
+    return "walletAddress";
+  } else if (handleRegex.test(input)) {
+    return "handle";
+  } else {
+    return "invalid";
+  }
+}
+
+async function getInputStakeKey(input: string): Promise<string> {
+  switch (isValidInput(input)) {
+    case "stakeKey":
+      return input;
+    case "walletAddress":
+      return addressToStakeKey(input);
+    case "handle":
+      return handleToStakeKey(input.slice(1));
+    case "invalid":
+    default:
+      throw new Error("Invalid input");
+  }
+}
+
+async function addressToStakeKey(address: string): Promise<string> {
+  const response = await fetch(
+    `https://cardano-mainnet.blockfrost.io/api/v0/addresses/${address}`,
+    {
+      headers: { project_id: process.env.BLOCKFROST_API_KEY as string },
+    },
+  );
+
+  if (!response.ok) {
+    const errorText = await response.text();
+    console.error(
+      "API call failed for wallet address " + address + " with response:",
+      {
+        endpoint: response.url,
+        status: response.status,
+        statusText: response.statusText,
+        errorBody: errorText,
+      },
+    );
+    throw new Error(
+      `API call failed: ${response.status} ${response.statusText}`,
+    );
+  }
+
+  const addressToStakeKey: WalletAddressResponse = await response.json();
+  return addressToStakeKey.stake_address;
+}
+
+async function handleToStakeKey(handle: string): Promise<string> {
+  const handleHexEncoded = Buffer.from(handle).toString("hex");
+  const handleAddressResponse = await fetch(
+    `https://cardano-mainnet.blockfrost.io/api/v0/assets/${handlePolicyId}${handleHexEncoded}/addresses`,
+    {
+      headers: { project_id: process.env.BLOCKFROST_API_KEY as string },
+    },
+  );
+
+  if (!handleAddressResponse.ok) {
+    const errorText = await handleAddressResponse.text();
+    console.error("API call failed for handle " + handle + " with response:", {
+      endpoint: handleAddressResponse.url,
+      status: handleAddressResponse.status,
+      statusText: handleAddressResponse.statusText,
+      errorBody: errorText,
+    });
+    throw new Error(
+      `API call failed: ${handleAddressResponse.status} ${handleAddressResponse.statusText}`,
+    );
+  }
+  const assetAddresses: AssetAddressesResponse[] =
+    await handleAddressResponse.json();
+  const address = assetAddresses[0].address;
+  return addressToStakeKey(address);
 }
 
 async function fetchCabinIds(
@@ -81,7 +179,7 @@ async function fetchCabinIds(
   return cabinNames;
 }
 
-async function fetchAddressAssets(
+async function fetchStakeKeyAssets(
   stakeKey: string,
   policyId: string,
 ): Promise<AddressAssetsResponse[]> {
@@ -130,17 +228,6 @@ async function fetchAddressAssets(
 
 export async function GET(request: NextRequest) {
   cookies();
-  const stakeKey = request.nextUrl.searchParams.get("stakeKey");
-  if (!stakeKey || !isValidStakeKey(stakeKey)) {
-    return new Response(
-      JSON.stringify({ error: "Invalid or missing stake address" }),
-      {
-        status: 400,
-        headers: { "Content-Type": "application/json" },
-      },
-    );
-  }
-
   if (
     typeof process.env.BLOCKFROST_API_KEY !== "string" ||
     process.env.BLOCKFROST_API_KEY.trim() === ""
@@ -148,9 +235,26 @@ export async function GET(request: NextRequest) {
     throw Error("Missing or invalid Blockfrost API key");
   }
 
+  const input = request.nextUrl.searchParams.get("input");
+  if (!input) {
+    return new Response(JSON.stringify({ error: "Missing input" }), {
+      status: 400,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+
+  const inputType = isValidInput(input);
+  if (inputType === "invalid") {
+    return new Response(JSON.stringify({ error: "Invalid input" }), {
+      status: 400,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+  const stakeKey = await getInputStakeKey(input);
+
   try {
-    const addressCabins = await fetchAddressAssets(stakeKey, cabinsPolicyId);
-    const cabinIds: string[] = await fetchCabinIds(addressCabins);
+    const walletCabins = await fetchStakeKeyAssets(stakeKey, cabinsPolicyId);
+    const cabinIds: string[] = await fetchCabinIds(walletCabins);
     return new Response(JSON.stringify({ cabinIds: cabinIds }), {
       status: 200,
       headers: { "Content-Type": "application/json" },

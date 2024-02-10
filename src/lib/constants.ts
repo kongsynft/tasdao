@@ -183,6 +183,7 @@ export const cotasPolicyId =
   "fca746f58adf9f3da13b7227e5e2c6052f376447473f4d49f8004195";
 export const societyUnit =
   "25f0fc240e91bd95dcdaebd2ba7713fc5168ac77234a3d79449fc20c534f4349455459";
-
+export const handlePolicyId =
+  "f0ff48bbb7bbe9d59a40f1ce90e9e9d0ff5002ec48f232b49ca0fb9a";
 export const daoStakeKey =
   "stake17xxu0kuhd00syak6msqysczv308ce44w6q7glhq9z9hajwcgmdpha";
