@@ -28,6 +28,10 @@ const Heatmap: React.FC = () => {
   const [showForSale, setForSale] = useState<boolean>(false);
   const [minPrice, setMinPrice] = useState<number | null>(null);
   const [maxPrice, setMaxPrice] = useState<number | null>(null);
+  const [searchKey, setSearchKey] = useState<string>("");
+  const [filteredCabinIds, setFilteredCabinIds] = useState<Set<string>>(
+    new Set(),
+  );
 
   useEffect(() => {
     const fetchData = async () => {
@@ -87,11 +91,29 @@ const Heatmap: React.FC = () => {
     setSelectedRatings(new Set());
   };
 
-  const isCabinSelected = selectedCabin !== null;
+  async function handleSearch() {
+    if (!searchKey.trim()) {
+      setFilteredCabinIds(new Set());
+      return;
+    }
+    const response = await fetch(
+      `/api/blockfrost/wallet/cabins?input=${searchKey}`,
+    );
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const { cabinIds } = await response.json();
+    setFilteredCabinIds(new Set(cabinIds));
+  }
+
+  async function resetSearch() {
+    setSearchKey("");
+    setFilteredCabinIds(new Set());
+  }
 
   return (
     <div className="flex">
-      <div className="w-64">
+      <div className="w-64 max-h-screen overflow-y-auto">
         <CabinInfobar
           cell={selectedCabin || hoveredCabin}
           sizes={selectedSizes}
@@ -99,7 +121,7 @@ const Heatmap: React.FC = () => {
           showForSale={showForSale}
           showLandmark={showLandmark}
           showNonLandmarks={showNonLandmarks}
-          isCabinSelected={isCabinSelected}
+          isCabinSelected={selectedCabin !== null}
           minPrice={minPrice}
           maxPrice={maxPrice}
           toggleSizeFilter={toggleSizeFilter}
@@ -113,6 +135,10 @@ const Heatmap: React.FC = () => {
           }
           setMinPrice={setMinPrice}
           setMaxPrice={setMaxPrice}
+          searchKey={searchKey}
+          setSearchKey={setSearchKey}
+          handleSearch={handleSearch}
+          resetSearch={resetSearch}
         />
       </div>
       <div className="flex flex-col flex-grow">
@@ -139,6 +165,7 @@ const Heatmap: React.FC = () => {
                       selectedRatings={selectedRatings}
                       minPrice={minPrice}
                       maxPrice={maxPrice}
+                      filteredCabinIds={filteredCabinIds}
                       onMouseEnter={handleMouseEnter}
                       onClick={handleCellClick}
                     />

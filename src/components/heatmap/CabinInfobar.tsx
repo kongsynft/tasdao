@@ -19,6 +19,7 @@ import { cn } from "@/lib/utils";
 import { Icons } from "@/lib/icons";
 import JpgIcon from "@/images/JpgDarkMode.png";
 import Link from "next/link";
+import { MagnifyingGlassIcon } from "@radix-ui/react-icons";
 
 interface CabinInfobarProps {
   cell: CabinDetails;
@@ -39,6 +40,10 @@ interface CabinInfobarProps {
   toggleNonLandmarksFilter: () => void;
   setMinPrice: (price: number | null) => void;
   setMaxPrice: (price: number | null) => void;
+  searchKey: string;
+  setSearchKey: React.Dispatch<React.SetStateAction<string>>;
+  handleSearch: () => void;
+  resetSearch: () => void;
 }
 
 const CabinInfobar = ({
@@ -60,6 +65,10 @@ const CabinInfobar = ({
   toggleNonLandmarksFilter,
   setMinPrice,
   setMaxPrice,
+  searchKey,
+  setSearchKey,
+  handleSearch,
+  resetSearch,
 }: CabinInfobarProps) => {
   function getImage(size: string) {
     const lowerCaseSize = size.toLowerCase();
@@ -233,6 +242,34 @@ const CabinInfobar = ({
             value={maxPrice !== null ? maxPrice : ""}
             onChange={handleMaxPriceChange}
           />
+        </div>
+        <div className="relative my-2">
+          <div className="absolute inset-0 flex items-center">
+            <span className="w-full border-t" />
+          </div>
+          <div className="relative flex justify-center text-xs uppercase">
+            <span className="bg-card px-2 text-muted-foreground">SEARCH</span>
+          </div>
+        </div>
+        <div className="flex flex-col w-full max-w-sm items-center space-y-2">
+          <div className="relative w-full">
+            <MagnifyingGlassIcon className="absolute left-3 top-1/2 transform -translate-y-1/2" />
+            <Input
+              className="pl-8"
+              type="search"
+              placeholder="Stake address, $handle"
+              value={searchKey}
+              onChange={(e) => setSearchKey(e.target.value)}
+            />
+          </div>
+          <div className="flex w-full justify-center space-x-2">
+            <Button type="button" onClick={resetSearch}>
+              Reset
+            </Button>
+            <Button type="submit" onClick={handleSearch}>
+              Search
+            </Button>
+          </div>
         </div>
       </CardContent>
     </Card>
