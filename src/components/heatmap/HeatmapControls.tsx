@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { useControls } from "react-zoom-pan-pinch";
 import { Card, CardContent } from "@/components/ui/card";
+import { WalletConnect } from "@/components/heatmap/WalletConnect";
 type HeatmapControlsProps = {};
 
 const HeatmapControls = ({}: HeatmapControlsProps) => {
@@ -23,6 +24,7 @@ const HeatmapControls = ({}: HeatmapControlsProps) => {
           <Button variant="secondary" onClick={() => centerView()}>
             Center
           </Button>
+          <WalletConnect />
         </div>
       </CardContent>
     </Card>

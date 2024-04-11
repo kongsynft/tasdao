@@ -6,6 +6,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
+import Provider from "./provider";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -36,8 +37,10 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className="relative flex min-h-screen flex-col bg-background">
-            <SiteHeader />
-            {children}
+            <Provider>
+              <SiteHeader />
+              {children}
+            </Provider>
           </div>
           <SpeedInsights />
           <Analytics />
