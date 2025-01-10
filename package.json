@@ -13,6 +13,8 @@
     "@assistant-ui/react-langgraph": "^0.1.2",
     "@assistant-ui/react-markdown": "^0.7.0",
     "@langchain/langgraph-sdk": "^0.0.23",
+    "@upstash/ratelimit": "^2.0.5",
+    "@vercel/functions": "^1.5.2",
     "next": "^15.0.3",
     "react": "^18",
     "react-dom": "^18",

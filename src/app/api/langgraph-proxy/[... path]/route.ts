@@ -14,11 +14,7 @@ async function handleRequest(req: NextRequest, method: string) {
   try {
     const path = req.nextUrl.pathname.replace(/^\/?api\/langgraph-proxy\//, "");
     const url = new URL(req.url);
-    console.log("[handleRequest] Full Request URL:", req.nextUrl.href);
-    console.log("[handleRequest] Constructed Path:", path);
-    console.log("[handleRequest] Forwarding to:", `${process.env["LANGGRAPH_API_URL"]}/${path}`);
-    
-
+   
     const options: RequestInit = {
       method,
       headers: {
