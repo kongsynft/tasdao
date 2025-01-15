@@ -1,4 +1,4 @@
-import { MyAssistant } from "@/src/components/MyAssistant";
+import { MyAssistant } from "@/components/my-assistant";
 
 export default function Home() {
   return (

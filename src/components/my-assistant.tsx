@@ -5,7 +5,7 @@ import { Thread } from "@assistant-ui/react";
 import { useLangGraphRuntime } from "@assistant-ui/react-langgraph";
 import { makeMarkdownText } from "@assistant-ui/react-markdown";
 
-import { createThread, getThreadState, sendMessage } from "../lib/chatApi";
+import { createThread, getThreadState, sendMessage } from "@/lib/chat-api";
 
 const MarkdownText = makeMarkdownText();
 
