@@ -1,6 +1,7 @@
 import "@/app/globals.css";
 import { META_THEME_COLORS } from "@/config/site";
 import { ThemeProvider } from "@/components/theme-providers";
+import { SiteHeader } from "@/components/site-header";
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -28,12 +29,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
         />
       </head>
       <body>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-        >
-          {children}
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <SiteHeader />
+          <main>{children}</main>
         </ThemeProvider>
       </body>
     </html>

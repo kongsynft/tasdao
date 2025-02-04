@@ -6,7 +6,7 @@ import { useTheme } from "next-themes"
 
 import { META_THEME_COLORS } from "@/config/site"
 import { useDarkModeMetaColor } from "@/hooks/use-dark-mode-meta-color"
-import { Button } from "@/registry/new-york/ui/button"
+import { Button } from "@/components/ui/button"
 
 export function DarkModeToggle() {
   const { setTheme, resolvedTheme } = useTheme()
