@@ -1,10 +1,16 @@
+"use client";
+
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { Icons } from "@/components/icons";
 import { DarkModeToggle } from "@/components/dark-mode-toggle";
 import { Button } from "@/components/ui/button";
+import { usePathname } from "next/navigation";
+import { cn } from "@/lib/utils";
 
 export function SiteHeader() {
+  const pathname = usePathname();
+
   return (
     <header className="border-grid sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container-wrapper">
@@ -16,6 +22,21 @@ export function SiteHeader() {
               {siteConfig.name}
             </span>
           </Link>
+
+          {/* Center: Navigation Links */}
+          <nav className="flex items-center gap-6">
+            <Link
+              href="/tasintern"
+              className={cn(
+                "transition-colors hover:text-foreground/80",
+                pathname === "/tasintern"
+                  ? "text-foreground"
+                  : "text-foreground/60"
+              )}
+            >
+              TAS Intern
+            </Link>
+          </nav>
 
           {/* Rightmost: Twitter Button and Dark Mode Toggle */}
           <nav className="flex items-center gap-2">
