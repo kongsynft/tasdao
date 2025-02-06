@@ -14,7 +14,7 @@ async function handleRequest(req: NextRequest, method: string) {
   try {
     const path = req.nextUrl.pathname.replace(/^\/?api\/langgraph-proxy\//, "");
     const url = new URL(req.url);
-   
+
     const options: RequestInit = {
       method,
       headers: {

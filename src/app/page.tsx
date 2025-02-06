@@ -1,6 +1,4 @@
 import * as React from "react";
-import { CouncilScrollArea } from "@/components/startpage/CouncilScrollArea";
-import { PageText } from "@/components/startpage/PageText";
 
 export default function Page() {
   return (
