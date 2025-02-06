@@ -1,11 +1,9 @@
 import * as React from "react";
-import { CouncilScrollArea } from "@/components/startpage/CouncilScrollArea";
-import { PageText } from "@/components/startpage/PageText";
 
 export default function Page() {
   return (
-    <div className="flex flex-col items-center md:px-80">
-      <PageText />
+    <div className="flex flex-col items-center px-4 md:px-20 lg:px-40">
+      {/* Hero Section */}
       <div className="flex flex-col md:flex-row items-center w-full h-full mb-10 md:mb-20">
         <div className="w-full md:w-1/2 p-4">
           <h2 className="text-lg md:text-4xl text-center tracking-tighter font-medium mb-4">
@@ -19,16 +17,18 @@ export default function Page() {
         </div>
         <div className="w-full md:w-1/2">
           <video
-            className="w-full h-auto object-cover"
+            className="w-full h-auto object-cover rounded-lg"
             autoPlay
             loop
             muted
             controls
           >
-            <source src="./tas.mp4" type="video/mp4" />
+            <source src="/tas.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
+
+      {/* Canvas Section */}
       <div className="flex flex-col md:flex-row items-center w-full h-full mb-10 md:mb-20">
         <div className="order-1 md:order-2 w-full md:w-1/2 p-4">
           <h2 className="text-lg md:text-4xl text-center tracking-tighter font-medium mb-4">
@@ -43,12 +43,18 @@ export default function Page() {
         </div>
         <div className="order-2 md:order-1 w-full md:w-1/2">
           <video
-            className="w-full h-auto object-cover"
-            src="./carver.mp4"
+            className="w-full h-auto object-cover rounded-lg"
+            autoPlay
+            loop
+            muted
             controls
-          />
+          >
+            <source src="/carver.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
+
+      {/* Mission Section */}
       <div className="flex flex-col md:flex-row items-center w-full h-full mb-10 md:mb-20">
         <div className="w-full md:w-1/2 p-4">
           <h2 className="text-lg md:text-4xl text-center tracking-tighter font-medium mb-4">
@@ -61,8 +67,11 @@ export default function Page() {
             our objectives while remaining compliant with legal standards.
           </p>
         </div>
-        <div className="w-full md:w-1/2">
-          <CouncilScrollArea />
+        <div className="w-full md:w-1/2 p-4">
+          {/* Placeholder for council members - we can add this later */}
+          <div className="bg-muted rounded-lg h-64 flex items-center justify-center">
+            Council Members
+          </div>
         </div>
       </div>
     </div>
