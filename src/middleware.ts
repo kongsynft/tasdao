@@ -1,44 +1,73 @@
-import { kv } from "@vercel/kv";
-import { Ratelimit } from "@upstash/ratelimit";
-import { NextRequest, NextResponse } from "next/server";
+import { ipAddress } from '@vercel/functions'
+import { Ratelimit } from '@upstash/ratelimit'
+import { Redis } from '@upstash/redis'
 
+import { NextRequest, NextResponse } from 'next/server'
+
+const redis = Redis.fromEnv()
 const ipRatelimit = new Ratelimit({
-  redis: kv,
-  limiter: Ratelimit.slidingWindow(20, "1 h"),
+  redis: redis,
+  limiter: Ratelimit.slidingWindow(30, '1 h'), // Limit 30 requests per hour per IP
 });
 
 const routeRatelimit = new Ratelimit({
-  redis: kv,
-  limiter: Ratelimit.slidingWindow(400, "1 h"),
+  redis: redis,
+  limiter: Ratelimit.slidingWindow(500, '1 h'), // Limit 500 requests per hour globally
 });
 
 export const config = {
-  matcher: ["/api/gpt-3-turbo/message"],
+  matcher: '/api/langgraph-proxy/:path*',
 };
 
 export default async function middleware(request: NextRequest) {
-  const ip = request.ip ?? "127.0.0.1";
+  const ip = ipAddress(request) ?? '127.0.0.1'
 
-  const routeLimit = await routeRatelimit.limit("global");
+  const routeLimit = await routeRatelimit.limit('global');
   if (!routeLimit.success) {
-    return createRateLimitResponse(routeLimit.reset);
+    return createRateLimitResponse(
+      'Route limit exceeded.',
+      routeLimit.limit,
+      routeLimit.remaining,
+      routeLimit.reset
+    )
   }
 
   const ipLimit = await ipRatelimit.limit(ip);
   if (!ipLimit.success) {
-    return createRateLimitResponse(ipLimit.reset);
+    return createRateLimitResponse(
+      'IP limit exceeded.',
+      ipLimit.limit,
+      ipLimit.remaining,
+      ipLimit.reset
+    )
   }
 
-  return NextResponse.next();
+  console.log(`IP Limit: ${ipLimit.limit}, Remaining: ${ipLimit.remaining}, Reset Time: ${ipLimit.reset}`)
+  return NextResponse.next()
 }
 
-function createRateLimitResponse(resetTimestamp: number): NextResponse {
-  const retryAfterSeconds = Math.max(0, resetTimestamp - Date.now()) / 1000;
-  return new NextResponse("Rate limit exceeded. Please try again later.", {
-    status: 429,
-    headers: {
-      "Retry-After": retryAfterSeconds.toString(),
-      "Content-Type": "text/plain",
-    },
-  });
+function createRateLimitResponse(
+  message: string,
+  limit: number,
+  remaining: number,
+  resetTimestamp: number
+): NextResponse {
+  return new NextResponse(
+    JSON.stringify({
+      success: false,
+      message,
+      limit,
+      remaining,
+      reset: resetTimestamp,
+    }),
+    {
+      status: 429,
+      headers: {
+        'Content-Type': 'application/json',
+        'X-RateLimit-Limit': limit.toString(),
+        'X-RateLimit-Remaining': remaining.toString(),
+        'X-RateLimit-Reset': resetTimestamp.toString(),
+      },
+    }
+  );
 }
